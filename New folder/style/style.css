@@ -1,0 +1,1776 @@
+body.chrome {
+    text-rendering: auto;
+}
+
+.herald-sticky,
+.herald-goto-top {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+        h1,
+        .h1,
+        .herald-no-sid .herald-posts .h2 {
+            font-size: 4.0rem;
+        }
+
+        h2,
+        .h2,
+        .herald-no-sid .herald-posts .h3 {
+            font-size: 3.3rem;
+        }
+
+        h3,
+        .h3,
+        .herald-no-sid .herald-posts .h4 {
+            font-size: 2.8rem;
+        }
+
+        h4,
+        .h4,
+        .herald-no-sid .herald-posts .h5 {
+            font-size: 2.3rem;
+        }
+
+        h5,
+        .h5,
+        .herald-no-sid .herald-posts .h6 {
+            font-size: 1.9rem;
+        }
+
+        h6,
+        .h6,
+        .herald-no-sid .herald-posts .h7 {
+            font-size: 1.6rem;
+        }
+
+        .h7 {
+            font-size: 1.4rem;
+        }
+
+        .herald-entry-content,
+        .herald-sidebar {
+            font-size: 1.6rem;
+        }
+
+        .entry-content .entry-headline {
+            font-size: 1.9rem;
+        }
+
+        body {
+            font-size: 1.6rem;
+        }
+
+        .widget {
+            font-size: 1.5rem;
+        }
+
+        .herald-menu {
+            font-size: 1.4rem;
+        }
+
+        .herald-mod-title .herald-mod-h,
+        .herald-sidebar .widget-title {
+            font-size: 1.6rem;
+        }
+
+        .entry-meta .meta-item,
+        .entry-meta a,
+        .entry-meta span {
+            font-size: 1.4rem;
+        }
+
+        .entry-meta.meta-small .meta-item,
+        .entry-meta.meta-small a,
+        .entry-meta.meta-small span {
+            font-size: 1.3rem;
+        }
+
+        .herald-site-header .header-top,
+        .header-top .herald-in-popup,
+        .header-top .herald-menu ul {
+            background: #111111;
+            color: #aaaaaa;
+        }
+
+        .header-top a {
+            color: #aaaaaa;
+        }
+
+        .header-top a:hover,
+        .header-top .herald-menu li:hover>a {
+            color: #ffffff;
+        }
+
+        .header-top .herald-menu-popup:hover>span,
+        .header-top .herald-menu-popup-search span:hover,
+        .header-top .herald-menu-popup-search.herald-search-active {
+            color: #ffffff;
+        }
+
+        #wp-calendar tbody td a {
+            background: #0288d1;
+            color: #FFF;
+        }
+
+        .header-top .herald-login #loginform label,
+        .header-top .herald-login p,
+        .header-top a.btn-logout {
+            color: #ffffff;
+        }
+
+        .header-top .herald-login #loginform input {
+            color: #111111;
+        }
+
+        .header-top .herald-login .herald-registration-link:after {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .header-top .herald-login #loginform input[type=submit],
+        .header-top .herald-in-popup .btn-logout {
+            background-color: #ffffff;
+            color: #111111;
+        }
+
+        .header-top a.btn-logout:hover {
+            color: #111111;
+        }
+
+        .header-middle {
+            background-color: #0277bd;
+            color: #ffffff;
+        }
+
+        .header-middle a {
+            color: #ffffff;
+        }
+
+        .header-middle.herald-header-wraper,
+        .header-middle .col-lg-12 {
+            height: 120px;
+        }
+
+        .header-middle .site-title img {
+            max-height: 120px;
+        }
+
+        .header-middle .sub-menu {
+            background-color: #ffffff;
+        }
+
+        .header-middle .sub-menu a,
+        .header-middle .herald-search-submit:hover,
+        .header-middle li.herald-mega-menu .col-lg-3 a:hover,
+        .header-middle li.herald-mega-menu .col-lg-3 a:hover:after {
+            color: #111111;
+        }
+
+        .header-middle .herald-menu li:hover>a,
+        .header-middle .herald-menu-popup-search:hover>span,
+        .header-middle .herald-cart-icon:hover>a {
+            color: #111111;
+            background-color: #ffffff;
+        }
+
+        .header-middle .current-menu-parent a,
+        .header-middle .current-menu-ancestor a,
+        .header-middle .current_page_item>a,
+        .header-middle .current-menu-item>a {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .header-middle .sub-menu>li>a,
+        .header-middle .herald-search-submit,
+        .header-middle li.herald-mega-menu .col-lg-3 a {
+            color: rgba(17, 17, 17, 0.7);
+        }
+
+        .header-middle .sub-menu>li:hover>a {
+            color: #111111;
+        }
+
+        .header-middle .herald-in-popup {
+            background-color: #ffffff;
+        }
+
+        .header-middle .herald-menu-popup a {
+            color: #111111;
+        }
+
+        .header-middle .herald-in-popup {
+            background-color: #ffffff;
+        }
+
+        .header-middle .herald-search-input {
+            color: #111111;
+        }
+
+        .header-middle .herald-menu-popup a {
+            color: #111111;
+        }
+
+        .header-middle .herald-menu-popup>span,
+        .header-middle .herald-search-active>span {
+            color: #ffffff;
+        }
+
+        .header-middle .herald-menu-popup:hover>span,
+        .header-middle .herald-search-active>span {
+            background-color: #ffffff;
+            color: #111111;
+        }
+
+        .header-middle .herald-login #loginform label,
+        .header-middle .herald-login #loginform input,
+        .header-middle .herald-login p,
+        .header-middle a.btn-logout,
+        .header-middle .herald-login .herald-registration-link:hover,
+        .header-middle .herald-login .herald-lost-password-link:hover {
+            color: #111111;
+        }
+
+        .header-middle .herald-login .herald-registration-link:after {
+            background: rgba(17, 17, 17, 0.15);
+        }
+
+        .header-middle .herald-login a,
+        .header-middle .herald-username a {
+            color: #111111;
+        }
+
+        .header-middle .herald-login a:hover,
+        .header-middle .herald-login .herald-registration-link,
+        .header-middle .herald-login .herald-lost-password-link {
+            color: #0277bd;
+        }
+
+        .header-middle .herald-login #loginform input[type=submit],
+        .header-middle .herald-in-popup .btn-logout {
+            background-color: #0277bd;
+            color: #ffffff;
+        }
+
+        .header-middle a.btn-logout:hover {
+            color: #ffffff;
+        }
+
+        .header-bottom {
+            background: #0288d1;
+            color: #ffffff;
+        }
+
+        .header-bottom a,
+        .header-bottom .herald-site-header .herald-search-submit {
+            color: #ffffff;
+        }
+
+        .header-bottom a:hover {
+            color: #424242;
+        }
+
+        .header-bottom a:hover,
+        .header-bottom .herald-menu li:hover>a,
+        .header-bottom li.herald-mega-menu .col-lg-3 a:hover:after {
+            color: #424242;
+        }
+
+        .header-bottom .herald-menu li:hover>a,
+        .header-bottom .herald-menu-popup-search:hover>span,
+        .header-bottom .herald-cart-icon:hover>a {
+            color: #424242;
+            background-color: #ffffff;
+        }
+
+        .header-bottom .current-menu-parent a,
+        .header-bottom .current-menu-ancestor a,
+        .header-bottom .current_page_item>a,
+        .header-bottom .current-menu-item>a {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .header-bottom .sub-menu {
+            background-color: #ffffff;
+        }
+
+        .header-bottom .herald-menu li.herald-mega-menu .col-lg-3 a,
+        .header-bottom .sub-menu>li>a,
+        .header-bottom .herald-search-submit {
+            color: rgba(66, 66, 66, 0.7);
+        }
+
+        .header-bottom .herald-menu li.herald-mega-menu .col-lg-3 a:hover,
+        .header-bottom .sub-menu>li:hover>a {
+            color: #424242;
+        }
+
+        .header-bottom .sub-menu>li>a,
+        .header-bottom .herald-search-submit {
+            color: rgba(66, 66, 66, 0.7);
+        }
+
+        .header-bottom .sub-menu>li:hover>a {
+            color: #424242;
+        }
+
+        .header-bottom .herald-in-popup {
+            background-color: #ffffff;
+        }
+
+        .header-bottom .herald-menu-popup a {
+            color: #424242;
+        }
+
+        .header-bottom .herald-in-popup,
+        .header-bottom .herald-search-input {
+            background-color: #ffffff;
+        }
+
+        .header-bottom .herald-menu-popup a,
+        .header-bottom .herald-search-input {
+            color: #424242;
+        }
+
+        .header-bottom .herald-menu-popup>span,
+        .header-bottom .herald-search-active>span {
+            color: #ffffff;
+        }
+
+        .header-bottom .herald-menu-popup:hover>span,
+        .header-bottom .herald-search-active>span {
+            background-color: #ffffff;
+            color: #424242;
+        }
+
+        .header-bottom .herald-login #loginform label,
+        .header-bottom .herald-login #loginform input,
+        .header-bottom .herald-login p,
+        .header-bottom a.btn-logout,
+        .header-bottom .herald-login .herald-registration-link:hover,
+        .header-bottom .herald-login .herald-lost-password-link:hover,
+        .herald-responsive-header .herald-login #loginform label,
+        .herald-responsive-header .herald-login #loginform input,
+        .herald-responsive-header .herald-login p,
+        .herald-responsive-header a.btn-logout,
+        .herald-responsive-header .herald-login .herald-registration-link:hover,
+        .herald-responsive-header .herald-login .herald-lost-password-link:hover {
+            color: #424242;
+        }
+
+        .header-bottom .herald-login .herald-registration-link:after,
+        .herald-responsive-header .herald-login .herald-registration-link:after {
+            background: rgba(66, 66, 66, 0.15);
+        }
+
+        .header-bottom .herald-login a,
+        .herald-responsive-header .herald-login a {
+            color: #424242;
+        }
+
+        .header-bottom .herald-login a:hover,
+        .header-bottom .herald-login .herald-registration-link,
+        .header-bottom .herald-login .herald-lost-password-link,
+        .herald-responsive-header .herald-login a:hover,
+        .herald-responsive-header .herald-login .herald-registration-link,
+        .herald-responsive-header .herald-login .herald-lost-password-link {
+            color: #0288d1;
+        }
+
+        .header-bottom .herald-login #loginform input[type=submit],
+        .herald-responsive-header .herald-login #loginform input[type=submit],
+        .header-bottom .herald-in-popup .btn-logout,
+        .herald-responsive-header .herald-in-popup .btn-logout {
+            background-color: #0288d1;
+            color: #ffffff;
+        }
+
+        .header-bottom a.btn-logout:hover,
+        .herald-responsive-header a.btn-logout:hover {
+            color: #ffffff;
+        }
+
+        .herald-header-sticky {
+            background: #0288d1;
+            color: #ffffff;
+        }
+
+        .herald-header-sticky a {
+            color: #ffffff;
+        }
+
+        .herald-header-sticky .herald-menu li:hover>a {
+            color: #444444;
+            background-color: #ffffff;
+        }
+
+        .herald-header-sticky .sub-menu {
+            background-color: #ffffff;
+        }
+
+        .herald-header-sticky .sub-menu a {
+            color: #444444;
+        }
+
+        .herald-header-sticky .sub-menu>li:hover>a {
+            color: #0288d1;
+        }
+
+        .herald-header-sticky .herald-in-popup,
+        .herald-header-sticky .herald-search-input {
+            background-color: #ffffff;
+        }
+
+        .herald-header-sticky .herald-menu-popup a {
+            color: #444444;
+        }
+
+        .herald-header-sticky .herald-menu-popup>span,
+        .herald-header-sticky .herald-search-active>span {
+            color: #ffffff;
+        }
+
+        .herald-header-sticky .herald-menu-popup:hover>span,
+        .herald-header-sticky .herald-search-active>span {
+            background-color: #ffffff;
+            color: #444444;
+        }
+
+        .herald-header-sticky .herald-search-input,
+        .herald-header-sticky .herald-search-submit {
+            color: #444444;
+        }
+
+        .herald-header-sticky .herald-menu li:hover>a,
+        .herald-header-sticky .herald-menu-popup-search:hover>span,
+        .herald-header-sticky .herald-cart-icon:hover a {
+            color: #444444;
+            background-color: #ffffff;
+        }
+
+        .herald-header-sticky .herald-login #loginform label,
+        .herald-header-sticky .herald-login #loginform input,
+        .herald-header-sticky .herald-login p,
+        .herald-header-sticky a.btn-logout,
+        .herald-header-sticky .herald-login .herald-registration-link:hover,
+        .herald-header-sticky .herald-login .herald-lost-password-link:hover {
+            color: #444444;
+        }
+
+        .herald-header-sticky .herald-login .herald-registration-link:after {
+            background: rgba(68, 68, 68, 0.15);
+        }
+
+        .herald-header-sticky .herald-login a {
+            color: #444444;
+        }
+
+        .herald-header-sticky .herald-login a:hover,
+        .herald-header-sticky .herald-login .herald-registration-link,
+        .herald-header-sticky .herald-login .herald-lost-password-link {
+            color: #0288d1;
+        }
+
+        .herald-header-sticky .herald-login #loginform input[type=submit],
+        .herald-header-sticky .herald-in-popup .btn-logout {
+            background-color: #0288d1;
+            color: #ffffff;
+        }
+
+        .herald-header-sticky a.btn-logout:hover {
+            color: #ffffff;
+        }
+
+        .header-trending {
+            background: #eeeeee;
+            color: #666666;
+        }
+
+        .header-trending a {
+            color: #666666;
+        }
+
+        .header-trending a:hover {
+            color: #111111;
+        }
+
+        .herald-site-content {
+            margin-top: 1px;
+        }
+
+        body {
+            background-color: #eeeeee;
+            color: #444444;
+            font-family: 'Open Sans';
+            font-weight: 400;
+        }
+
+        .herald-site-content {
+            background-color: #ffffff;
+            box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.1);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        .h7,
+        .wp-block-cover .wp-block-cover-image-text,
+        .wp-block-cover .wp-block-cover-text,
+        .wp-block-cover h2,
+        .wp-block-cover-image .wp-block-cover-image-text,
+        .wp-block-cover-image .wp-block-cover-text,
+        .wp-block-cover-image h2 {
+            font-family: 'Lato';
+            font-weight: 700;
+        }
+
+        .header-middle .herald-menu,
+        .header-bottom .herald-menu,
+        .herald-header-sticky .herald-menu,
+        .herald-mobile-nav {
+            font-family: 'Open Sans';
+            font-weight: 600;
+        }
+
+        .herald-menu li.herald-mega-menu .herald-ovrld .meta-category a {
+            font-family: 'Open Sans';
+            font-weight: 400;
+        }
+
+        .herald-entry-content blockquote p {
+            color: #0288d1;
+        }
+
+        pre {
+            background: rgba(68, 68, 68, 0.06);
+            border: 1px solid rgba(68, 68, 68, 0.2);
+        }
+
+        thead {
+            background: rgba(68, 68, 68, 0.06);
+        }
+
+        a,
+        .entry-title a:hover,
+        .herald-menu .sub-menu li .meta-category a {
+            color: #0288d1;
+        }
+
+        .entry-meta-wrapper .entry-meta span:before,
+        .entry-meta-wrapper .entry-meta a:before,
+        .entry-meta-wrapper .entry-meta .meta-item:before,
+        .entry-meta-wrapper .entry-meta div,
+        li.herald-mega-menu .sub-menu .entry-title a,
+        .entry-meta-wrapper .herald-author-twitter {
+            color: #444444;
+        }
+
+        .herald-mod-title h1,
+        .herald-mod-title h2,
+        .herald-mod-title h4 {
+            color: #ffffff;
+        }
+
+        .herald-mod-head:after,
+        .herald-mod-title .herald-color,
+        .widget-title:after,
+        .widget-title span {
+            color: #ffffff;
+            background-color: #333333;
+        }
+
+        .herald-mod-title .herald-color a {
+            color: #ffffff;
+        }
+
+        .herald-ovrld .meta-category a,
+        .herald-fa-wrapper .meta-category a {
+            background-color: #0288d1;
+        }
+
+        .meta-tags a,
+        .widget_tag_cloud a,
+        .herald-share-meta:after,
+        .wp-block-tag-cloud a {
+            background: rgba(51, 51, 51, 0.1);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .entry-title a {
+            color: #333333;
+        }
+
+        .herald-pagination .page-numbers,
+        .herald-mod-subnav a,
+        .herald-mod-actions a,
+        .herald-slider-controls div,
+        .meta-tags a,
+        .widget.widget_tag_cloud a,
+        .herald-sidebar .mks_autor_link_wrap a,
+        .herald-sidebar .meks-instagram-follow-link a,
+        .mks_themeforest_widget .mks_read_more a,
+        .herald-read-more,
+        .wp-block-tag-cloud a {
+            color: #444444;
+        }
+
+        .widget.widget_tag_cloud a:hover,
+        .entry-content .meta-tags a:hover,
+        .wp-block-tag-cloud a:hover {
+            background-color: #0288d1;
+            color: #FFF;
+        }
+
+        .herald-pagination .prev.page-numbers,
+        .herald-pagination .next.page-numbers,
+        .herald-pagination .prev.page-numbers:hover,
+        .herald-pagination .next.page-numbers:hover,
+        .herald-pagination .page-numbers.current,
+        .herald-pagination .page-numbers.current:hover,
+        .herald-next a,
+        .herald-pagination .herald-next a:hover,
+        .herald-prev a,
+        .herald-pagination .herald-prev a:hover,
+        .herald-load-more a,
+        .herald-load-more a:hover,
+        .entry-content .herald-search-submit,
+        .herald-mod-desc .herald-search-submit,
+        .wpcf7-submit,
+        body div.wpforms-container-full .wpforms-form input[type=submit],
+        body div.wpforms-container-full .wpforms-form button[type=submit],
+        body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+            background-color: #0288d1;
+            color: #FFF;
+        }
+
+        .herald-pagination .page-numbers:hover {
+            background-color: rgba(68, 68, 68, 0.1);
+        }
+
+        .widget a,
+        .recentcomments a,
+        .widget a:hover,
+        .herald-sticky-next a:hover,
+        .herald-sticky-prev a:hover,
+        .herald-mod-subnav a:hover,
+        .herald-mod-actions a:hover,
+        .herald-slider-controls div:hover,
+        .meta-tags a:hover,
+        .widget_tag_cloud a:hover,
+        .mks_autor_link_wrap a:hover,
+        .meks-instagram-follow-link a:hover,
+        .mks_themeforest_widget .mks_read_more a:hover,
+        .herald-read-more:hover,
+        .widget .entry-title a:hover,
+        li.herald-mega-menu .sub-menu .entry-title a:hover,
+        .entry-meta-wrapper .meta-item:hover a,
+        .entry-meta-wrapper .meta-item:hover a:before,
+        .entry-meta-wrapper .herald-share:hover>span,
+        .entry-meta-wrapper .herald-author-name:hover,
+        .entry-meta-wrapper .herald-author-twitter:hover,
+        .entry-meta-wrapper .herald-author-twitter:hover:before {
+            color: #0288d1;
+        }
+
+        .widget ul li a,
+        .widget .entry-title a,
+        .herald-author-name,
+        .entry-meta-wrapper .meta-item,
+        .entry-meta-wrapper .meta-item span,
+        .entry-meta-wrapper .meta-item a,
+        .herald-mod-actions a {
+            color: #444444;
+        }
+
+        .widget li:before {
+            background: rgba(68, 68, 68, 0.3);
+        }
+
+        .widget_categories .count {
+            background: #0288d1;
+            color: #FFF;
+        }
+
+        input[type="submit"],
+        body div.wpforms-container-full .wpforms-form input[type=submit]:hover,
+        body div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+        body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
+        .spinner>div {
+            background-color: #0288d1;
+        }
+
+        .herald-mod-actions a:hover,
+        .comment-body .edit-link a,
+        .herald-breadcrumbs a:hover {
+            color: #0288d1;
+        }
+
+        .herald-header-wraper .herald-soc-nav a:hover,
+        .meta-tags span,
+        li.herald-mega-menu .herald-ovrld .entry-title a,
+        li.herald-mega-menu .herald-ovrld .entry-title a:hover,
+        .herald-ovrld .entry-meta .herald-reviews i:before {
+            color: #FFF;
+        }
+
+        .entry-meta .meta-item,
+        .entry-meta span,
+        .entry-meta a,
+        .meta-category span,
+        .post-date,
+        .recentcomments,
+        .rss-date,
+        .comment-metadata a,
+        .entry-meta a:hover,
+        .herald-menu li.herald-mega-menu .col-lg-3 a:after,
+        .herald-breadcrumbs,
+        .herald-breadcrumbs a,
+        .entry-meta .herald-reviews i:before {
+            color: #999999;
+        }
+
+        .herald-lay-a .herald-lay-over {
+            background: #ffffff;
+        }
+
+        .herald-pagination a:hover,
+        input[type="submit"]:hover,
+        .entry-content .herald-search-submit:hover,
+        .wpcf7-submit:hover,
+        .herald-fa-wrapper .meta-category a:hover,
+        .herald-ovrld .meta-category a:hover,
+        .herald-mod-desc .herald-search-submit:hover,
+        .herald-single-sticky .herald-share .meks_ess a:hover,
+        body div.wpforms-container-full .wpforms-form input[type=submit]:hover,
+        body div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+        body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+            cursor: pointer;
+            text-decoration: none;
+            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+            background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+            background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+            background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+        }
+
+        .herald-sticky-next a,
+        .herald-sticky-prev a {
+            color: #444444;
+        }
+
+        .herald-sticky-prev a:before,
+        .herald-sticky-next a:before,
+        .herald-comment-action,
+        .meta-tags span,
+        .herald-entry-content .herald-link-pages a {
+            background: #444444;
+        }
+
+        .herald-sticky-prev a:hover:before,
+        .herald-sticky-next a:hover:before,
+        .herald-comment-action:hover,
+        div.mejs-controls .mejs-time-rail .mejs-time-current,
+        .herald-entry-content .herald-link-pages a:hover {
+            background: #0288d1;
+        }
+
+        .herald-site-footer {
+            background: #222222;
+            color: #dddddd;
+        }
+
+        .herald-site-footer .widget-title span {
+            color: #dddddd;
+            background: transparent;
+        }
+
+        .herald-site-footer .widget-title:before {
+            background: #dddddd;
+        }
+
+        .herald-site-footer .widget-title:after,
+        .herald-site-footer .widget_tag_cloud a {
+            background: rgba(221, 221, 221, 0.1);
+        }
+
+        .herald-site-footer .widget li:before {
+            background: rgba(221, 221, 221, 0.3);
+        }
+
+        .herald-site-footer a,
+        .herald-site-footer .widget a:hover,
+        .herald-site-footer .widget .meta-category a,
+        .herald-site-footer .herald-slider-controls .owl-prev:hover,
+        .herald-site-footer .herald-slider-controls .owl-next:hover,
+        .herald-site-footer .herald-slider-controls .herald-mod-actions:hover {
+            color: #0288d1;
+        }
+
+        .herald-site-footer .widget a,
+        .herald-site-footer .mks_author_widget h3 {
+            color: #dddddd;
+        }
+
+        .herald-site-footer .entry-meta .meta-item,
+        .herald-site-footer .entry-meta span,
+        .herald-site-footer .entry-meta a,
+        .herald-site-footer .meta-category span,
+        .herald-site-footer .post-date,
+        .herald-site-footer .recentcomments,
+        .herald-site-footer .rss-date,
+        .herald-site-footer .comment-metadata a {
+            color: #aaaaaa;
+        }
+
+        .herald-site-footer .mks_author_widget .mks_autor_link_wrap a,
+        .herald-site-footer.mks_read_more a,
+        .herald-site-footer .herald-read-more,
+        .herald-site-footer .herald-slider-controls .owl-prev,
+        .herald-site-footer .herald-slider-controls .owl-next,
+        .herald-site-footer .herald-mod-wrap .herald-mod-actions a {
+            border-color: rgba(221, 221, 221, 0.2);
+        }
+
+        .herald-site-footer .mks_author_widget .mks_autor_link_wrap a:hover,
+        .herald-site-footer.mks_read_more a:hover,
+        .herald-site-footer .herald-read-more:hover,
+        .herald-site-footer .herald-slider-controls .owl-prev:hover,
+        .herald-site-footer .herald-slider-controls .owl-next:hover,
+        .herald-site-footer .herald-mod-wrap .herald-mod-actions a:hover {
+            border-color: rgba(2, 136, 209, 0.5);
+        }
+
+        .herald-site-footer .widget_search .herald-search-input {
+            color: #222222;
+        }
+
+        .herald-site-footer .widget_tag_cloud a:hover {
+            background: #0288d1;
+            color: #FFF;
+        }
+
+        .footer-bottom a {
+            color: #dddddd;
+        }
+
+        .footer-bottom a:hover,
+        .footer-bottom .herald-copyright a {
+            color: #0288d1;
+        }
+
+        .footer-bottom .herald-menu li:hover>a {
+            color: #0288d1;
+        }
+
+        .footer-bottom .sub-menu {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .herald-pagination {
+            border-top: 1px solid rgba(51, 51, 51, 0.1);
+        }
+
+        .entry-content a:hover,
+        .comment-respond a:hover,
+        .comment-reply-link:hover {
+            border-bottom: 2px solid #0288d1;
+        }
+
+        .footer-bottom .herald-copyright a:hover {
+            border-bottom: 2px solid #0288d1;
+        }
+
+        .herald-slider-controls .owl-prev,
+        .herald-slider-controls .owl-next,
+        .herald-mod-wrap .herald-mod-actions a {
+            border: 1px solid rgba(68, 68, 68, 0.2);
+        }
+
+        .herald-slider-controls .owl-prev:hover,
+        .herald-slider-controls .owl-next:hover,
+        .herald-mod-wrap .herald-mod-actions a:hover,
+        .herald-author .herald-socials-actions .herald-mod-actions a:hover {
+            border-color: rgba(2, 136, 209, 0.5);
+        }
+
+        #wp-calendar thead th,
+        #wp-calendar tbody td,
+        #wp-calendar tbody td:last-child {
+            border: 1px solid rgba(68, 68, 68, 0.1);
+        }
+
+        .herald-link-pages {
+            border-bottom: 1px solid rgba(68, 68, 68, 0.1);
+        }
+
+        .herald-lay-h:after,
+        .herald-site-content .herald-related .herald-lay-h:after,
+        .herald-lay-e:after,
+        .herald-site-content .herald-related .herald-lay-e:after,
+        .herald-lay-j:after,
+        .herald-site-content .herald-related .herald-lay-j:after,
+        .herald-lay-l:after,
+        .herald-site-content .herald-related .herald-lay-l:after {
+            background-color: rgba(68, 68, 68, 0.1);
+        }
+
+        .wp-block-button__link,
+        .wp-block-search__button {
+            background: #0288d1;
+        }
+
+        .wp-block-search__button {
+            color: #ffffff;
+        }
+
+        input[type="text"],
+        input[type="search"],
+        input[type="email"],
+        input[type="url"],
+        input[type="tel"],
+        input[type="number"],
+        input[type="date"],
+        input[type="password"],
+        select,
+        textarea,
+        .herald-single-sticky,
+        td,
+        th,
+        table,
+        .mks_author_widget .mks_autor_link_wrap a,
+        .widget .meks-instagram-follow-link a,
+        .mks_read_more a,
+        .herald-read-more {
+            border-color: rgba(68, 68, 68, 0.2);
+        }
+
+        .entry-content .herald-search-input,
+        .herald-fake-button,
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        input[type="date"]:focus,
+        input[type="password"]:focus,
+        textarea:focus {
+            border-color: rgba(68, 68, 68, 0.3);
+        }
+
+        .mks_author_widget .mks_autor_link_wrap a:hover,
+        .widget .meks-instagram-follow-link a:hover,
+        .mks_read_more a:hover,
+        .herald-read-more:hover {
+            border-color: rgba(2, 136, 209, 0.5);
+        }
+
+        .comment-form,
+        .herald-gray-area,
+        .entry-content .herald-search-form,
+        .herald-mod-desc .herald-search-form {
+            background-color: rgba(68, 68, 68, 0.06);
+            border: 1px solid rgba(68, 68, 68, 0.15);
+        }
+
+        .herald-boxed .herald-breadcrumbs {
+            background-color: rgba(68, 68, 68, 0.06);
+        }
+
+        .herald-breadcrumbs {
+            border-color: rgba(68, 68, 68, 0.15);
+        }
+
+        .single .herald-entry-content .herald-da,
+        .archive .herald-posts .herald-da {
+            border-top: 1px solid rgba(68, 68, 68, 0.15);
+        }
+
+        .archive .herald-posts .herald-da {
+            border-bottom: 1px solid rgba(68, 68, 68, 0.15);
+        }
+
+        li.comment .comment-body:after {
+            background-color: rgba(68, 68, 68, 0.06);
+        }
+
+        .herald-pf-invert .entry-title a:hover .herald-format-icon {
+            background: #0288d1;
+        }
+
+        .herald-responsive-header,
+        .herald-mobile-nav,
+        .herald-responsive-header .herald-menu-popup-search .fa {
+            color: #ffffff;
+            background: #0288d1;
+        }
+
+        .herald-responsive-header a {
+            color: #ffffff;
+        }
+
+        .herald-mobile-nav li a {
+            color: #ffffff;
+        }
+
+        .herald-mobile-nav li a,
+        .herald-mobile-nav .herald-mega-menu.herald-mega-menu-classic>.sub-menu>li>a {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .herald-mobile-nav {
+            border-right: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .herald-mobile-nav li a:hover {
+            color: #fff;
+            background-color: #424242;
+        }
+
+        .herald-menu-toggler {
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .herald-goto-top {
+            color: #ffffff;
+            background-color: #333333;
+        }
+
+        .herald-goto-top:hover {
+            background-color: #0288d1;
+        }
+
+        .herald-responsive-header .herald-menu-popup>span,
+        .herald-responsive-header .herald-search-active>span {
+            color: #ffffff;
+        }
+
+        .herald-responsive-header .herald-menu-popup-search .herald-in-popup {
+            background: #ffffff;
+        }
+
+        .herald-responsive-header .herald-search-input,
+        .herald-responsive-header .herald-menu-popup-search .herald-search-submit {
+            color: #444444;
+        }
+
+        .woocommerce ul.products li.product .button,
+        .woocommerce ul.products li.product .added_to_cart,
+        .woocommerce div.product form.cart .button,
+        body.woocommerce .button,
+        body.woocommerce .button:hover,
+        body.woocommerce-page .button,
+        body.woocommerce-page .button:hover,
+        .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+        .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+        .woocommerce a.button.alt,
+        .woocommerce a.button.alt:hover,
+        .woocommerce-checkout #place_order,
+        .woocommerce .widget_shopping_cart_content .buttons .button,
+        .woocommerce #respond input#submit,
+        .woocommerce #respond input#submit:hover {
+            background-color: #0288d1;
+        }
+
+        .woocommerce-pagination {
+            border-top: 1px solid rgba(51, 51, 51, 0.1);
+        }
+
+        .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+            border-bottom: 2px solid #0288d1;
+        }
+
+        .woocommerce-cart table.cart td.actions .coupon .input-text {
+            border-color: rgba(51, 51, 51, 0.1);
+        }
+
+        .woocommerce table.shop_table tbody:first-child tr:first-child td,
+        .woocommerce table.shop_table tbody:first-child tr:first-child th {
+            border-top: 1px solid rgba(51, 51, 51, 0.1);
+            border-bottom: none;
+        }
+
+        .woocommerce-cart .cart_item td {
+            border-bottom: 1px solid rgba(51, 51, 51, 0.1) !important;
+        }
+
+        .woocommerce nav.woocommerce-pagination ul li span,
+        .woocommerce nav.woocommerce-pagination ul li a:hover,
+        .woocommerce nav.woocommerce-pagination ul li span.current {
+            background-color: #0288d1;
+            color: #FFF;
+        }
+
+        .woocommerce .woocommerce-breadcrumb a,
+        .woocommerce .woocommerce-breadcrumb,
+        .woocommerce .woocommerce-result-count,
+        del .amount {
+            color: #999999;
+        }
+
+        .woocommerce .woocommerce-breadcrumb a:hover {
+            color: #0288d1;
+        }
+
+        #bbpress-forums li.bbp-header,
+        #bbpress-forums li.bbp-footer {
+            color: #ffffff;
+            background-color: #333333;
+        }
+
+        #bbpress-forums .bbp-forum-title,
+        #bbpress-forums .bbp-topic-permalink {
+            font-family: 'Lato';
+            font-weight: 700;
+            color: #333333;
+        }
+
+        #bbpress-forums .bbp-topic-started-by,
+        .bbp-topic-freshness a,
+        .bbp-pagination-count,
+        #bbpress-forums .bbp-forum-info .bbp-forum-content,
+        #bbpress-forums p.bbp-topic-meta,
+        .bbp-forum-freshness a,
+        span.bbp-admin-links a,
+        .bbp-reply-post-date,
+        #bbpress-forums li.bbp-forum a,
+        .widget_display_replies div,
+        .widget_display_topics div {
+            color: #999999;
+        }
+
+        #bbpress-forums .bbp-forum-title:hover,
+        #bbpress-forums .bbp-topic-permalink:hover,
+        .bbp-topic-freshness a:hover,
+        .bbp-topic-meta a,
+        .bbp-forum-freshness a:hover,
+        span.bbp-admin-links a:hover,
+        .bbp-reply-post-date:hover,
+        #bbpress-forums li.bbp-forum a:hover {
+            color: #0288d1;
+        }
+
+        .bbp-topic-form,
+        .bbp-reply-form {
+            background-color: rgba(68, 68, 68, 0.06);
+            border: 1px solid rgba(68, 68, 68, 0.15);
+        }
+
+        div.bbp-submit-wrapper button,
+        #bbpress-forums #bbp-your-profile fieldset.submit button {
+            background-color: #0288d1;
+        }
+
+        .bbp-pagination-links a:hover,
+        .bbp-pagination-links span.current {
+            background-color: #0288d1;
+            color: #FFF;
+        }
+
+        #bbpress-forums textarea {
+            border: 1px solid rgba(68, 68, 68, 0.2) !important;
+        }
+
+        .bbp_widget_login .logout-link {
+            border: 1px solid rgba(68, 68, 68, 0.2);
+            color: #444444;
+        }
+
+        .bbp_widget_login .logout-link:hover {
+            border: 1px solid rgba(2, 136, 209, 0.5);
+        }
+
+        .entry-meta-wrapper .meta-item.herald-author:hover .coauthors a {
+            color: #444444
+        }
+
+        .entry-meta-wrapper .meta-item.herald-author .coauthors a:hover {
+            color: #0288d1
+        }
+
+        a.herald-cat-6,
+        .widget a.herald-cat-6 {
+            color: #ba68c8;
+        }
+
+        .herald-mod-head.herald-cat-6:after {
+            background: #ba68c8;
+        }
+
+        .herald-mod-head.herald-cat-6 .herald-color {
+            background: #ba68c8;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-6 {
+            background-color: #ba68c8;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-6 .count {
+            background-color: #ba68c8;
+        }
+
+        .herald-fa-colored .herald-cat-6 .fa-post-thumbnail:before {
+            background-color: #ba68c8;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-6 {
+            background-color: #ba68c8;
+        }
+
+        .widget_categories .cat-item-6 a:hover {
+            color: #ba68c8;
+        }
+
+        .herald-site-footer .widget a.herald-cat-6 {
+            color: #ba68c8;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-6 {
+            color: #ba68c8;
+        }
+
+        a.herald-cat-3,
+        .widget a.herald-cat-3 {
+            color: #f06292;
+        }
+
+        .herald-mod-head.herald-cat-3:after {
+            background: #f06292;
+        }
+
+        .herald-mod-head.herald-cat-3 .herald-color {
+            background: #f06292;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-3 {
+            background-color: #f06292;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-3 .count {
+            background-color: #f06292;
+        }
+
+        .herald-fa-colored .herald-cat-3 .fa-post-thumbnail:before {
+            background-color: #f06292;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-3 {
+            background-color: #f06292;
+        }
+
+        .widget_categories .cat-item-3 a:hover {
+            color: #f06292;
+        }
+
+        .herald-site-footer .widget a.herald-cat-3 {
+            color: #f06292;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-3 {
+            color: #f06292;
+        }
+
+        a.herald-cat-4,
+        .widget a.herald-cat-4 {
+            color: #ffa726;
+        }
+
+        .herald-mod-head.herald-cat-4:after {
+            background: #ffa726;
+        }
+
+        .herald-mod-head.herald-cat-4 .herald-color {
+            background: #ffa726;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-4 {
+            background-color: #ffa726;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-4 .count {
+            background-color: #ffa726;
+        }
+
+        .herald-fa-colored .herald-cat-4 .fa-post-thumbnail:before {
+            background-color: #ffa726;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-4 {
+            background-color: #ffa726;
+        }
+
+        .widget_categories .cat-item-4 a:hover {
+            color: #ffa726;
+        }
+
+        .herald-site-footer .widget a.herald-cat-4 {
+            color: #ffa726;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-4 {
+            color: #ffa726;
+        }
+
+        a.herald-cat-5,
+        .widget a.herald-cat-5 {
+            color: #f44336;
+        }
+
+        .herald-mod-head.herald-cat-5:after {
+            background: #f44336;
+        }
+
+        .herald-mod-head.herald-cat-5 .herald-color {
+            background: #f44336;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-5 {
+            background-color: #f44336;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-5 .count {
+            background-color: #f44336;
+        }
+
+        .herald-fa-colored .herald-cat-5 .fa-post-thumbnail:before {
+            background-color: #f44336;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-5 {
+            background-color: #f44336;
+        }
+
+        .widget_categories .cat-item-5 a:hover {
+            color: #f44336;
+        }
+
+        .herald-site-footer .widget a.herald-cat-5 {
+            color: #f44336;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-5 {
+            color: #f44336;
+        }
+
+        a.herald-cat-7,
+        .widget a.herald-cat-7 {
+            color: #2196f3;
+        }
+
+        .herald-mod-head.herald-cat-7:after {
+            background: #2196f3;
+        }
+
+        .herald-mod-head.herald-cat-7 .herald-color {
+            background: #2196f3;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-7 {
+            background-color: #2196f3;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-7 .count {
+            background-color: #2196f3;
+        }
+
+        .herald-fa-colored .herald-cat-7 .fa-post-thumbnail:before {
+            background-color: #2196f3;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-7 {
+            background-color: #2196f3;
+        }
+
+        .widget_categories .cat-item-7 a:hover {
+            color: #2196f3;
+        }
+
+        .herald-site-footer .widget a.herald-cat-7 {
+            color: #2196f3;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-7 {
+            color: #2196f3;
+        }
+
+        a.herald-cat-2,
+        .widget a.herald-cat-2 {
+            color: #8bc34a;
+        }
+
+        .herald-mod-head.herald-cat-2:after {
+            background: #8bc34a;
+        }
+
+        .herald-mod-head.herald-cat-2 .herald-color {
+            background: #8bc34a;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-2 {
+            background-color: #8bc34a;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-2 .count {
+            background-color: #8bc34a;
+        }
+
+        .herald-fa-colored .herald-cat-2 .fa-post-thumbnail:before {
+            background-color: #8bc34a;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-2 {
+            background-color: #8bc34a;
+        }
+
+        .widget_categories .cat-item-2 a:hover {
+            color: #8bc34a;
+        }
+
+        .herald-site-footer .widget a.herald-cat-2 {
+            color: #8bc34a;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-2 {
+            color: #8bc34a;
+        }
+
+        a.herald-cat-48,
+        .widget a.herald-cat-48 {
+            color: #009688;
+        }
+
+        .herald-mod-head.herald-cat-48:after {
+            background: #009688;
+        }
+
+        .herald-mod-head.herald-cat-48 .herald-color {
+            background: #009688;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-48 {
+            background-color: #009688;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-48 .count {
+            background-color: #009688;
+        }
+
+        .herald-fa-colored .herald-cat-48 .fa-post-thumbnail:before {
+            background-color: #009688;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-48 {
+            background-color: #009688;
+        }
+
+        .widget_categories .cat-item-48 a:hover {
+            color: #009688;
+        }
+
+        .herald-site-footer .widget a.herald-cat-48 {
+            color: #009688;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-48 {
+            color: #009688;
+        }
+
+        a.herald-cat-43,
+        .widget a.herald-cat-43 {
+            color: #8d6e63;
+        }
+
+        .herald-mod-head.herald-cat-43:after {
+            background: #8d6e63;
+        }
+
+        .herald-mod-head.herald-cat-43 .herald-color {
+            background: #8d6e63;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-43 {
+            background-color: #8d6e63;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-43 .count {
+            background-color: #8d6e63;
+        }
+
+        .herald-fa-colored .herald-cat-43 .fa-post-thumbnail:before {
+            background-color: #8d6e63;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-43 {
+            background-color: #8d6e63;
+        }
+
+        .widget_categories .cat-item-43 a:hover {
+            color: #8d6e63;
+        }
+
+        .herald-site-footer .widget a.herald-cat-43 {
+            color: #8d6e63;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-43 {
+            color: #8d6e63;
+        }
+
+        a.herald-cat-42,
+        .widget a.herald-cat-42 {
+            color: #78909c;
+        }
+
+        .herald-mod-head.herald-cat-42:after {
+            background: #78909c;
+        }
+
+        .herald-mod-head.herald-cat-42 .herald-color {
+            background: #78909c;
+        }
+
+        .herald-ovrld .meta-category a.herald-cat-42 {
+            background-color: #78909c;
+            color: #FFF;
+        }
+
+        .widget_categories .cat-item-42 .count {
+            background-color: #78909c;
+        }
+
+        .herald-fa-colored .herald-cat-42 .fa-post-thumbnail:before {
+            background-color: #78909c;
+        }
+
+        .herald-fa-wrapper .meta-category .herald-cat-42 {
+            background-color: #78909c;
+        }
+
+        .widget_categories .cat-item-42 a:hover {
+            color: #78909c;
+        }
+
+        .herald-site-footer .widget a.herald-cat-42 {
+            color: #78909c;
+        }
+
+        li.herald-mega-menu .sub-menu a.herald-cat-42 {
+            color: #78909c;
+        }
+
+        .site-title a {
+            text-transform: none;
+        }
+
+        .site-description {
+            text-transform: none;
+        }
+
+        .main-navigation {
+            text-transform: uppercase;
+        }
+
+        .entry-title {
+            text-transform: none;
+        }
+
+        .meta-category a {
+            text-transform: uppercase;
+        }
+
+        .herald-mod-title {
+            text-transform: none;
+        }
+
+        .herald-sidebar .widget-title {
+            text-transform: none;
+        }
+
+        .herald-site-footer .widget-title {
+            text-transform: none;
+        }
+
+        .has-small-font-size {
+            font-size: 1.3rem;
+        }
+
+        .has-large-font-size {
+            font-size: 2.2rem;
+        }
+
+        .has-huge-font-size {
+            font-size: 2.9rem;
+        }
+
+        @media(min-width: 1025px) {
+            .has-small-font-size {
+                font-size: 1.3rem;
+            }
+            .has-normal-font-size {
+                font-size: 1.6rem;
+            }
+            .has-large-font-size {
+                font-size: 2.2rem;
+            }
+            .has-huge-font-size {
+                font-size: 2.9rem;
+            }
+        }
+
+        .has-herald-acc-background-color {
+            background-color: #0288d1;
+        }
+
+        .has-herald-acc-color {
+            color: #0288d1;
+        }
+
+        .has-herald-meta-background-color {
+            background-color: #999999;
+        }
+
+        .has-herald-meta-color {
+            color: #999999;
+        }
+
+        .has-herald-txt-background-color {
+            background-color: #444444;
+        }
+
+        .has-herald-txt-color {
+            color: #444444;
+        }
+
+        .has-herald-bg-background-color {
+            background-color: #ffffff;
+        }
+
+        .has-herald-bg-color {
+            color: #ffffff;
+        }
+
+        .has-herald-cat-6-background-color {
+            background-color: #ba68c8;
+        }
+
+        .has-herald-cat-6-color {
+            color: #ba68c8;
+        }
+
+        .has-herald-cat-3-background-color {
+            background-color: #f06292;
+        }
+
+        .has-herald-cat-3-color {
+            color: #f06292;
+        }
+
+        .has-herald-cat-4-background-color {
+            background-color: #ffa726;
+        }
+
+        .has-herald-cat-4-color {
+            color: #ffa726;
+        }
+
+        .has-herald-cat-5-background-color {
+            background-color: #f44336;
+        }
+
+        .has-herald-cat-5-color {
+            color: #f44336;
+        }
+
+        .has-herald-cat-7-background-color {
+            background-color: #2196f3;
+        }
+
+        .has-herald-cat-7-color {
+            color: #2196f3;
+        }
+
+        .has-herald-cat-2-background-color {
+            background-color: #8bc34a;
+        }
+
+        .has-herald-cat-2-color {
+            color: #8bc34a;
+        }
+
+        .has-herald-cat-48-background-color {
+            background-color: #009688;
+        }
+
+        .has-herald-cat-48-color {
+            color: #009688;
+        }
+
+        .has-herald-cat-43-background-color {
+            background-color: #8d6e63;
+        }
+
+        .has-herald-cat-43-color {
+            color: #8d6e63;
+        }
+
+        .has-herald-cat-42-background-color {
+            background-color: #78909c;
+        }
+
+        .has-herald-cat-42-color {
+            color: #78909c;
+        }
+
+        .fa-post-thumbnail:before,
+        .herald-ovrld .herald-post-thumbnail span:before,
+        .herald-ovrld .herald-post-thumbnail a:before,
+        .herald-ovrld:hover .herald-post-thumbnail-single span:before {
+            opacity: 0.5;
+        }
+
+        .herald-fa-item:hover .fa-post-thumbnail:before,
+        .herald-ovrld:hover .herald-post-thumbnail a:before,
+        .herald-ovrld:hover .herald-post-thumbnail span:before {
+            opacity: 0.8;
+        }
+
+        @media only screen and (min-width: 1249px) {
+            .herald-site-header .header-top,
+            .header-middle,
+            .header-bottom,
+            .herald-header-sticky,
+            .header-trending {
+                display: block !important;
+            }
+            .herald-responsive-header,
+            .herald-mobile-nav {
+                display: none !important;
+            }
+            .herald-mega-menu .sub-menu {
+                display: block;
+            }
+            .header-mobile-da {
+                display: none;
+            }
+        }
