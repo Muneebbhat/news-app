@@ -3,6 +3,7 @@ import axios from "axios"
 import './styles/style.css'
 import Headers from "./components/headers"
 import Home from "./components/Home"
+import NewsIndex from "./components/NewsType/NewsIndex"
 
 const App = () => {
   const [topHeadlines, setTopHeadlines] = useState([])
@@ -17,8 +18,9 @@ const App = () => {
   },[])
   return (
     <div>
-        <Headers/>
+        <Headers topNews={topHeadlines}/>
         <Home topNews={topHeadlines}/>
+        <NewsIndex/>
     </div>
   )
 }
