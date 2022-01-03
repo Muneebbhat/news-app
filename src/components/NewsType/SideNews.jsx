@@ -49,7 +49,7 @@ const SideNews = () => {
             <div className="entry-header">
               <h2 className="entry-title h5">
                 <a href="https://demo.mekshq.com/herald/?p=61">
-                  Add some flair to your relationship: go hiking together
+                  Add some flair to your relationship: muneeb bhat
                 </a>
               </h2>
             </div>
