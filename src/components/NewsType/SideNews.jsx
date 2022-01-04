@@ -54,7 +54,7 @@ const SideNews = () => {
               </h2>
             </div>
           </article>
-          {/* <article
+          <article
               className="
                 herald-lay-f
                 post-134 post
@@ -99,15 +99,15 @@ const SideNews = () => {
                   >
                 </h2>
               </div>
-            </article> */}
+            </article>
         </div>
       </div>
-      {/* <div className="herald-sticky">
+      <div className="herald-sticky">
           <div id="mks_ads_widget-12" className="widget mks_ads_widget">
             <ul className="mks_adswidget_ul large">
               <li data-showind="0">
-                <div style="width: 300px; height: 250px">
-                  <a href="javascript:void(0);" className="mks-ep-trigger-open"
+                <div style={{width: '300px', height: "250px"}}>
+                  <a href="#" className="mks-ep-trigger-open"
                     ><img
                       src="https://mekshq.com/static/herald/td_herald_300.jpg"
                   /></a>
@@ -115,7 +115,7 @@ const SideNews = () => {
               </li>
             </ul>
           </div>
-        </div> */}
+        </div>
     </div>
   );
 };
