@@ -1,28 +1,31 @@
-import { useState, useEffect } from "react"
-import axios from "axios"
-import './styles/style.css'
-import Headers from "./components/headers"
-import Home from "./components/Home"
-import NewsIndex from "./components/NewsType/NewsIndex"
+import { useState, useEffect } from "react";
+import axios from "axios";
+import "./styles/style.css";
+import Headers from "./components/headers";
+import Home from "./components/Home";
+import NewsIndex from "./components/NewsType/NewsIndex";
 
 const App = () => {
-  const [topHeadlines, setTopHeadlines] = useState([])
+  const [ topHeadlines, setTopHeadlines ] = useState([]);
   useEffect(() => {
     const getTopHeadlines = async () => {
-      const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&apiKey=981aef87ee3145e6bc5d276393fb83e7`)
+      const response = await axios.get(
+        `https://newsapi.org/v2/top-headlines?country=in&apiKey=981aef87ee3145e6bc5d276393fb83e7`
+      );
 
-      setTopHeadlines(response.data.articles)
-    }
-    
+      setTopHeadlines(response.data.articles);
+    };
+
     getTopHeadlines();
-  },[])
+  }, []);
   return (
     <div>
-        <Headers topNews={topHeadlines}/>
-        <Home topNews={topHeadlines}/>
-        <NewsIndex/>
+      <Headers topNews={topHeadlines} />
+      <Home topNews={topHeadlines} />
+      <NewsIndex />
+      <h1>Hello</h1>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
