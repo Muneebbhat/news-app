@@ -13,14 +13,14 @@ const App = () => {
 
       setTopHeadlines(response.data.articles)
     }
-    
     getTopHeadlines();
   },[])
   return (
     <div>
         <Headers topNews={topHeadlines}/>
         <Home topNews={topHeadlines}/>
-        <NewsIndex/>
+        <NewsIndex topNews={topHeadlines}/>
+        {console.log(topHeadlines)}
     </div>
   )
 }
