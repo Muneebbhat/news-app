@@ -1,6 +1,8 @@
 import React from "react";
+import { useState } from "react/cjs/react.development";
 
 const SideNews = () => {
+  const [entertainmentNews, setentertainmentNews] = useState([])
   return (
     <div className="herald-sidebar col-lg-3 col-md-3 herald-sidebar-right">
       <div id="herald_posts_widget-8" className="widget herald_posts_widget">
@@ -49,7 +51,7 @@ const SideNews = () => {
             <div className="entry-header">
               <h2 className="entry-title h5">
                 <a href="https://demo.mekshq.com/herald/?p=61">
-                  Add some flair to your relationship: muneeb bhat
+                  Add some flair to your relationship:
                 </a>
               </h2>
             </div>
