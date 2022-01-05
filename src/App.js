@@ -2,8 +2,11 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import './styles/style.css'
 import Headers from "./components/headers"
-import Home from "./components/Home"
-import NewsIndex from "./components/NewsType/NewsIndex"
+import Banner from "./components/site/Banner"
+import SiteSection2 from "./components/site/SiteSection2"
+import SiteSection3 from "./components/site/SiteSection3"
+import SiteSection4 from "./components/site/SiteSection4"
+
 
 const App = () => {
   const [topHeadlines, setTopHeadlines] = useState([])
@@ -16,10 +19,12 @@ const App = () => {
     getTopHeadlines();
   },[])
   return (
-    <div>
+    <div id="content" className="herald-site-content herald-slide">
         <Headers topNews={topHeadlines}/>
-        <Home topNews={topHeadlines}/>
-        <NewsIndex topNews={topHeadlines}/>
+        <Banner topNews={topHeadlines}/>
+        <SiteSection2 topNews={topHeadlines}/>
+        <SiteSection3/>
+        <SiteSection4/>
         {console.log(topHeadlines)}
     </div>
   )
