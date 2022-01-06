@@ -42,7 +42,7 @@ const SS2BArticle = ({topNews}) => {
                 href="https://demo.mekshq.com/herald/?cat=4"
                 className="herald-cat-4"
               >
-                Food &amp; Drinks
+                Breaking News
               </a>
             </span>
 
