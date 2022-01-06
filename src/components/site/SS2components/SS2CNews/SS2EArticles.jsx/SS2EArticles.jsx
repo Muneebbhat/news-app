@@ -1,6 +1,6 @@
 import React from "react";
 
-const SS2EArticles = () => {
+const SS2EArticles = ({news}) => {
   return (
     <article
       className="
@@ -23,7 +23,7 @@ const SS2EArticles = () => {
           <img
             width="300"
             height="168"
-            src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald043-300x168.jpg"
+            src={news?.urlToImage}
             className="
                             attachment-herald-lay-f
                             size-herald-lay-f
@@ -48,7 +48,7 @@ const SS2EArticles = () => {
 
         <h2 className="entry-title h5">
           <a href="https://demo.mekshq.com/herald/?p=171">
-            Start recording like a pro with the help of these 6 tips
+            {news?.title}
           </a>
         </h2>
         <div className="entry-meta meta-small">

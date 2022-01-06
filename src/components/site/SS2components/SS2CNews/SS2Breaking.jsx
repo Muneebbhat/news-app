@@ -15,10 +15,16 @@ const SS2Breaking = ({news}) => {
           </div>
         </div>
       </div>
+
+
       <div className="row herald-posts row-eq-height">
-      {/* {console.log(news)} */}
-        <SS2BArticle/>
-        <SS2BArticle/>
+      {news?.slice(0,2).map((newa)=>(
+        <>
+        <SS2BArticle topNews={newa}/>
+        </>
+        
+      ))}
+        
 
         
       </div>

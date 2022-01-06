@@ -7,17 +7,16 @@ import SS2TopReviews from "./SS2CNews/SS2TopReviews";
 import SS2Travel from "./SS2CNews/SS2Travel";
 
 const SS2Main = (props) => {
-  // const {News} = props.topNews
+  const {News, entNews, businessNews} = props
   return (
     <div className="herald-main-content col-lg-9 col-md-9 col-mod-main">
       <div className="row">
-        <SS2Breaking/>
-        <SS2Entertainment/>
-        {console.log(props,"muneebbhat")}
+        <SS2Breaking news={News}/>
+        <SS2Entertainment news={entNews}/>
 
         {/* ads here */}
 
-        <SS2Travel/>
+        <SS2Travel business={businessNews}/>
         <SS2Fashion/>
         <SS2FoodNDrinks/>
        <SS2TopReviews/> 

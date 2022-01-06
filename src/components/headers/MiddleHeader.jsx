@@ -11,7 +11,7 @@ const MiddleHeader = () => {
                       ><img
                         className="herald-logo no-lazyload"
                         src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/themes/herald/assets/img/herald_logo.png"
-                        alt="Herald"
+                        alt="Reactor-Webs"
                     /></a>
                   </h1>
                 </div>

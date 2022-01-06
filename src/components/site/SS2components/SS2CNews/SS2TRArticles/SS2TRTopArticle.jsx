@@ -1,7 +1,8 @@
+import moment from "moment";
 import React from "react";
 
 
-const SS2TRTopArticle = () => {
+const SS2TRTopArticle = ({News}) => {
   return (
     <article
       className="
@@ -24,7 +25,7 @@ const SS2TRTopArticle = () => {
             <img
               width="300"
               height="200"
-              src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald120-300x200.jpg"
+              src={News?.urlToImage}
               className="
                               attachment-herald-lay-b1
                               size-herald-lay-b1
@@ -43,18 +44,18 @@ const SS2TRTopArticle = () => {
               href="https://demo.mekshq.com/herald/?cat=2"
               className="herald-cat-2"
             >
-              Travel
+              Business
             </a>
           </span>
 
           <h2 className="entry-title h6">
             <a href="https://demo.mekshq.com/herald/?p=140">
-              The top 10 traveling taboos you should break
+              {News?.title}
             </a>
           </h2>
           <div className="entry-meta">
             <div className="meta-item herald-date">
-              <span className="updated">1 week ago</span>
+              <span className="updated">{moment(News?.publishedAt).startOf('hour').fromNow()}</span>
             </div>
           </div>
         </div>
@@ -62,5 +63,4 @@ const SS2TRTopArticle = () => {
     </article>
   );
 };
-
 export default SS2TRTopArticle;

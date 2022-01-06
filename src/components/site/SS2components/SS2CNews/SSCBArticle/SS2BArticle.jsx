@@ -1,6 +1,7 @@
+import moment from 'moment'
 import React from 'react'
 
-const SS2BArticle = () => {
+const SS2BArticle = ({topNews}) => {
     return (
         <article
           className="
@@ -22,7 +23,7 @@ const SS2BArticle = () => {
               <img
                 width="470"
                 height="264"
-                src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald119-470x264.jpg"
+                src={topNews?.urlToImage}
                 className="
                             attachment-herald-lay-b
                             size-herald-lay-b
@@ -47,36 +48,24 @@ const SS2BArticle = () => {
 
             <h2 className="entry-title h3">
               <a href="https://demo.mekshq.com/herald/?p=191">
-                Pasta is the secret ingredient for a healthy lifestyle
+                {topNews?.title}
+
               </a>
             </h2>
             <div className="entry-meta">
               <div className="meta-item herald-date">
-                <span className="updated">1 week ago</span>
+                <span className="updated">{moment(topNews?.publishedAt).startOf('hour').fromNow()}</span>
               </div>
               <div className="meta-item herald-author">
                 <div className="coauthors couauthors-icon">
                   <span className="vcard author">
                     <span className="fn">
                       <a href="https://demo.mekshq.com/herald?author_name=meks1">
-                        Patrick Callahan
+                      {topNews?.author}
                       </a>
                     </span>
                   </span>
-                  <span className="vcard author">
-                    <span className="fn">
-                      <a href="https://demo.mekshq.com/herald?author_name=meks2">
-                        Lisa Scholfield
-                      </a>
-                    </span>
-                  </span>
-                  <span className="vcard author">
-                    <span className="fn">
-                      <a href="https://demo.mekshq.com/herald?author_name=meks3">
-                        John Bergstein
-                      </a>
-                    </span>
-                  </span>
+                  
                 </div>
               </div>
             </div>
@@ -84,9 +73,7 @@ const SS2BArticle = () => {
 
           <div className="entry-content">
             <p>
-              This is an example of a post with multiple authors to showcase
-              full support with Co Authors Plus WordPress Plugin. Master cleanse
-              mumblecore...
+              {topNews.content.slice(0,150)}...
             </p>
           </div>
         </article>
