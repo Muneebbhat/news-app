@@ -30,7 +30,6 @@ const App = () => {
         <SiteSection4 />
       </Suspense>
 
-      {console.log(topHeadlines)}
     </div>
   );
 };

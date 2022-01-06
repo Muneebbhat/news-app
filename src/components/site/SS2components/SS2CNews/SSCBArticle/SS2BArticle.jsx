@@ -73,7 +73,7 @@ const SS2BArticle = ({topNews}) => {
 
           <div className="entry-content">
             <p>
-              {topNews.content.slice(0,150)}...
+              {topNews?.content?.slice(0,150)}...
             </p>
           </div>
         </article>

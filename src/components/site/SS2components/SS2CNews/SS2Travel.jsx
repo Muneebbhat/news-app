@@ -17,7 +17,6 @@ const SS2Travel = ({business}) => {
         </div>
       </div>
       <div className="row herald-posts row-eq-height">
-      {console.log(business)}
 
         <SS2TRTopArticle News={business[0]}/>
         {business.slice(1,5).map((news) => (
