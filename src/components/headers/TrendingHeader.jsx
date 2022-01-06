@@ -29,7 +29,7 @@ const TrendingHeader = ({ sixNews }) => {
                   </div>
                   <h4 className="h6">
                     <a href="https://demo.mekshq.com/herald/?p=203">
-                      {news.title.slice(0,50)}...
+                      {news.title.slice(0,40)}...
                     </a>
                   </h4>
                 </div>

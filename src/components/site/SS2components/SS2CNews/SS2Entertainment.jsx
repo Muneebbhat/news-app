@@ -1,13 +1,14 @@
 import React from "react";
 import SS2EArticles from "./SS2EArticles.jsx/SS2EArticles";
 
-const SS2Entertainment = () => {
+const SS2Entertainment = ({news}) => {
   return (
     <div
       className="herald-module col-lg-12 col-md-12 col-sm-12"
       id="herald-module-1-1"
       data-col="12"
     >
+
       <div className="herald-mod-wrap">
         <div className="herald-mod-head herald-cat-6">
           <div className="herald-mod-title">
@@ -45,14 +46,11 @@ const SS2Entertainment = () => {
         </div>
       </div>
       <div className="row herald-posts row-eq-height herald-slider">
+        {news.slice(0,9).map((News) => (
+          <SS2EArticles news={News}/>
+        ))}
         
-        <SS2EArticles/>
-        <SS2EArticles/>
-        <SS2EArticles/>
-        <SS2EArticles/>
-        <SS2EArticles/>
-        <SS2EArticles/>
-        <SS2EArticles/>
+        
         
       </div>
     </div>
