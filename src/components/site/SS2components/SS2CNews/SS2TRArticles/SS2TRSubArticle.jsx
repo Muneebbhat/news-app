@@ -1,6 +1,6 @@
 import React from "react";
 
-const SS2TRSubArticle = () => {
+const SS2TRSubArticle = ({News}) => {
   return (
     <article
       className="
@@ -25,7 +25,7 @@ const SS2TRSubArticle = () => {
               <img
                 width="74"
                 height="55"
-                src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald091-74x55.jpg"
+                src={News?.urlToImage}
                 className="
                                 attachment-herald-lay-g1
                                 size-herald-lay-g1
@@ -46,13 +46,13 @@ const SS2TRSubArticle = () => {
                 href="https://demo.mekshq.com/herald/?cat=2"
                 className="herald-cat-2"
               >
-                Travel
+                Business
               </a>
             </span>
 
             <h2 className="entry-title h7">
               <a href="https://demo.mekshq.com/herald/?p=125">
-                Why do people think the beach is a good idea?
+                {News?.title.slice(0,50)}
               </a>
             </h2>
           </div>
