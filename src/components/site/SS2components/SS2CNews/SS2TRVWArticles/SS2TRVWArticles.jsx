@@ -1,6 +1,7 @@
+import moment from 'moment'
 import React from 'react'
 
-const SS2TRVWArticles = () => {
+const SS2TRVWArticles = ({news}) => {
     return (
         <article
           className="
@@ -22,7 +23,7 @@ const SS2TRVWArticles = () => {
               <img
                 width="300"
                 height="168"
-                src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald120-300x168.jpg"
+                src={news?.urlToImage}
                 className="
                             attachment-herald-lay-f
                             size-herald-lay-f
@@ -41,17 +42,17 @@ const SS2TRVWArticles = () => {
                 href="https://demo.mekshq.com/herald/?cat=2"
                 className="herald-cat-2"
               >
-                Travel
+                Techonology
               </a>
             </span>
 
             <h2 className="entry-title h5">
               <a href="https://demo.mekshq.com/herald/?p=140">
-                The top 10 traveling  you should break
+                {news?.title}
               </a>
             </h2>
             <div className="entry-meta meta-small">
-              <div className="meta-item herald-rtime">2 Min Read</div>
+              <div className="meta-item herald-rtime">{moment(news?.publishedAt).startOf('hour').fromNow()}</div>
               <div className="meta-item herald-reviews">
                 <div
                   className="

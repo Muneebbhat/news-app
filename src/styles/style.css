@@ -90,6 +90,8 @@ body.chrome {
         .header-top .herald-menu ul {
             background: #111111;
             color: #aaaaaa;
+            z-index: 10;
+
         }
 
         .header-top a {
@@ -139,6 +141,8 @@ body.chrome {
         .header-middle {
             background-color: #0277bd;
             color: #ffffff;
+            z-index: 10;
+
         }
 
         .header-middle a {
@@ -257,6 +261,8 @@ body.chrome {
         .header-bottom {
             background: #0288d1;
             color: #ffffff;
+            z-index: 10;
+
         }
 
         .header-bottom a,
@@ -391,6 +397,8 @@ body.chrome {
         .herald-header-sticky {
             background: #0288d1;
             color: #ffffff;
+            z-index: 10;
+
         }
 
         .herald-header-sticky a {
@@ -482,6 +490,7 @@ body.chrome {
         .header-trending {
             background: #eeeeee;
             color: #666666;
+            z-index: 10;
         }
 
         .header-trending a {

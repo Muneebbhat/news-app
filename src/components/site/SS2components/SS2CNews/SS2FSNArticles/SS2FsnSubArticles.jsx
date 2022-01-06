@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SS2FsnSubArticles = () => {
+const SS2FsnSubArticles = ({news}) => {
     return (
         <article
           className="
@@ -24,7 +24,7 @@ const SS2FsnSubArticles = () => {
                   <img
                     width="74"
                     height="55"
-                    src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald125-74x55.jpg"
+                    src={news?.urlToImage}
                     className="
                                 attachment-herald-lay-g1
                                 size-herald-lay-g1
@@ -45,13 +45,13 @@ const SS2FsnSubArticles = () => {
                     href="https://demo.mekshq.com/herald/?cat=3"
                     className="herald-cat-3"
                   >
-                    Fashion
+                    Health
                   </a>
                 </span>
 
                 <h2 className="entry-title h7">
                   <a href="https://demo.mekshq.com/herald/?p=144">
-                    How to make your accessories look
+                    {news?.title.slice(0,50)}
                   </a>
                 </h2>
               </div>

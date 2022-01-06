@@ -2,7 +2,7 @@ import React from "react";
 import SS2FNDSubArticles from "./SS2FNDArticles/SS2FNDSubArticles";
 import SS2FNDTopArticles from "./SS2FNDArticles/SS2FNDTopArticles";
 
-const SS2FoodNDrinks = () => {
+const SS2FoodNDrinks = ({science}) => {
   return (
     <div
       className="herald-module col-lg-4 col-md-4 col-sm-4"
@@ -17,13 +17,11 @@ const SS2FoodNDrinks = () => {
         </div>
       </div>
       <div className="row herald-posts row-eq-height">
-        <SS2FNDTopArticles/>
+        <SS2FNDTopArticles news={science[0]}/>
 
-        <SS2FNDSubArticles/>
-        <SS2FNDSubArticles/>
-        <SS2FNDSubArticles/>
-        <SS2FNDSubArticles/>
-
+        {science?.slice(1,5).map((News) => (
+          <SS2FNDSubArticles news={News}/>
+        ))}
         
       </div>
     </div>

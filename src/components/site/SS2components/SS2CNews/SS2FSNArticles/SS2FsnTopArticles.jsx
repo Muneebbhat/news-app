@@ -1,6 +1,7 @@
+import moment from "moment";
 import React from "react";
 
-const SS2FsnTopArticles = () => {
+const SS2FsnTopArticles = ({news}) => {
   return (
     <article
       className="
@@ -23,7 +24,7 @@ const SS2FsnTopArticles = () => {
             <img
               width="300"
               height="200"
-              src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald104-300x200.jpg"
+              src={news?.urlToImage}
               className="
                               attachment-herald-lay-b1
                               size-herald-lay-b1
@@ -42,18 +43,18 @@ const SS2FsnTopArticles = () => {
               href="https://demo.mekshq.com/herald/?cat=3"
               className="herald-cat-3"
             >
-              Fashion
+              Health
             </a>
           </span>
 
           <h2 className="entry-title h6">
             <a href="https://demo.mekshq.com/herald/?p=182">
-              The beginner&#8217;s guide to buying the right skirt
+              {news?.title}
             </a>
           </h2>
           <div className="entry-meta">
             <div className="meta-item herald-date">
-              <span className="updated">1 week ago</span>
+              <span className="updated">{moment(news?.publishedAt).startOf('hour').fromNow()}</span>
             </div>
           </div>
         </div>

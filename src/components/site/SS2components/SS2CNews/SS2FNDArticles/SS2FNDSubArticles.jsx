@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SS2FNDSubArticles = () => {
+const SS2FNDSubArticles = ({news}) => {
     return (
         <article
           className="
@@ -25,7 +25,7 @@ const SS2FNDSubArticles = () => {
                   <img
                     width="74"
                     height="55"
-                    src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald003-74x55.jpg"
+                    src={news?.urlToImage}
                     className="
                               attachment-herald-lay-g1
                               size-herald-lay-g1
@@ -46,7 +46,7 @@ const SS2FNDSubArticles = () => {
                     href="https://demo.mekshq.com/herald/?cat=4"
                     className="herald-cat-4"
                   >
-                    Food &amp; Drinks
+                    Science
                   </a>
                 </span>
 
@@ -55,7 +55,7 @@ const SS2FNDSubArticles = () => {
                     <span className="herald-format-icon">
                       <i className="fa fa-picture-o"></i>
                     </span>
-                    11 reasons why making your own food is essential
+                    {news?.title.slice(0,70)}...
                   </a>
                 </h2>
               </div>

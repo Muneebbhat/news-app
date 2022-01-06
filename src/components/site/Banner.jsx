@@ -18,7 +18,7 @@ const SiteHeader = ({topNews}) => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="herald-fa-list">
-                    {topNews.sort(function(){return .5 - Math.random()}).slice(0,4).map((News) =>(
+                    {topNews?.sort(function(){return .5 - Math.random()}).slice(0,4).map((News) =>(
                       <HeaderArticles New={News}/>
                     ))}
                       
