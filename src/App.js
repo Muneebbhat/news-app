@@ -9,6 +9,7 @@ const Headers = React.lazy(() => import("./components/headers"));
 const SiteSection2 = React.lazy(() => import("./components/site/SiteSection2"));
 const SiteSection3 = React.lazy(() => import("./components/site/SiteSection3"));
 const SiteSection4 = React.lazy(() => import("./components/site/SiteSection4"));
+const Footer = React.lazy(() => import("./components/footer/Footer"));
 
 const App = () => {
   const [topHeadlines, setTopHeadlines] = useState([]);
@@ -30,6 +31,7 @@ const App = () => {
         <SiteSection2 topNews={topHeadlines} />
         <SiteSection3 />
         <SiteSection4 />
+        <Footer/>
       </Suspense>
 
     </div>
