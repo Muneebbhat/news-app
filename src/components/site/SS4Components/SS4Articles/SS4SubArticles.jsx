@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import moment from "moment"
 
-const SS4SubArticles = () => {
+const SS4SubArticles = ({title,urlToImage, description,content,author, publishedAt}) => {
+  // const [counter, setcounter] = useState(100)
+  const [read, setRead] = useState(false)
+  const increase = () =>{
+    setRead(!read)
+    // setcounter(counter + 500)
+  }
     return (
         <article
                   className="
@@ -28,7 +35,7 @@ const SS4SubArticles = () => {
                           <img
                             width="300"
                             height="200"
-                            src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/05/herald034-e1447696639921-300x200.jpg"
+                            src={urlToImage}
                             className="
                                 attachment-herald-lay-b1
                                 size-herald-lay-b1
@@ -49,18 +56,18 @@ const SS4SubArticles = () => {
                             href="https://demo.mekshq.com/herald/?cat=4"
                             className="herald-cat-4"
                           >
-                            Food &amp; Drinks
+                            {author}
                           </a>
                         </span>
 
                         <h2 className="entry-title h3">
                           <a href="https://demo.mekshq.com/herald/?p=174">
-                            This is how coffee can help you predict the future
+                            {title}
                           </a>
                         </h2>
                         <div className="entry-meta">
                           <div className="meta-item herald-date">
-                            <span className="updated">1 week ago</span>
+                            <span className="updated">{moment(publishedAt).startOf('hour').fromNow()}</span>
                           </div>
                           <div className="meta-item herald-comments">
                             <a href="https://demo.mekshq.com/herald/?p=174#respond">
@@ -71,11 +78,10 @@ const SS4SubArticles = () => {
                       </div>
 
                       <div className="entry-content">
-                        <p>
-                          Trust fund Tumblr fixie, hoodie flannel dreamcatcher
-                          lomo hella jean shorts. Chambray Carles aesthetic, you
-                          probably haven't heard of them wolf umami gastropub...
-                        </p>
+                        
+                        {!read ? <p>{description?.slice(8,100) }</p> : <p>{description } {content}</p>}
+                        <span onClick={increase}>{!read ? "Read More" : "Read Less"}</span>
+                        
                       </div>
                     </div>
                   </div>
