@@ -2,7 +2,7 @@ import React from "react";
 import SS3ArticleWI from "./SS3News/SS3ArticleWI";
 import SS3ArticleWOI from "./SS3News/SS3ArticleWOI";
 
-const SS3PopularThisWeek = () => {
+const SS3PopularThisWeek = ({SportsNews}) => {
   return (
     <div
       className="herald-module col-lg-12 col-md-12 col-sm-12"
@@ -12,24 +12,20 @@ const SS3PopularThisWeek = () => {
       <div className="herald-mod-wrap">
         <div className="herald-mod-head">
           <div className="herald-mod-title">
-            <h2 className="h6 herald-mod-h herald-color">Popular This Week</h2>
+            <h2 className="h6 herald-mod-h herald-color">Sports</h2>
           </div>
         </div>
       </div>
       <div className="row herald-posts row-eq-height">
-        <SS3ArticleWI/>
-        <SS3ArticleWI/>
-        <SS3ArticleWI/>
-        <SS3ArticleWI/>
-
-        <SS3ArticleWOI/>
-        <SS3ArticleWOI/>
-        <SS3ArticleWOI/>
-        <SS3ArticleWOI/>
-        <SS3ArticleWOI/>
-        <SS3ArticleWOI/>
-        <SS3ArticleWOI/>
-        <SS3ArticleWOI/>
+      {SportsNews?.slice(0,12)?.map((news, index) =>(
+        <SS3ArticleWI {...news} key={index} id={index}/>
+      ))}
+        
+        
+        {SportsNews?.slice(12,16)?.map((news, index)=>(
+          <SS3ArticleWOI {...news} key={index} id={index}/>
+        ))}
+       
 
       </div>
     </div>

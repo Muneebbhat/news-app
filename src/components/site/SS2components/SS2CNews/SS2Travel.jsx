@@ -19,8 +19,8 @@ const SS2Travel = ({business}) => {
       <div className="row herald-posts row-eq-height">
 
         <SS2TRTopArticle News={business[0]}/>
-        {business.slice(1,5).map((news) => (
-          <SS2TRSubArticle News={news}/>
+        {business.slice(1,5).map((news,index) => (
+          <SS2TRSubArticle News={news} key={index} id={index}/>
         ))}
        
         

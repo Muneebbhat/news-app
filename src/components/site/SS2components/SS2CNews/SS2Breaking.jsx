@@ -18,11 +18,9 @@ const SS2Breaking = ({news}) => {
 
 
       <div className="row herald-posts row-eq-height">
-      {news?.slice(0,2).map((newa)=>(
-        <>
-        <SS2BArticle topNews={newa}/>
-        </>
-        
+      {news?.slice(0,2)?.map((news, index)=>(
+        <SS2BArticle topNews={news} key={index} id={index}/>
+         
       ))}
         
 

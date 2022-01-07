@@ -3,7 +3,8 @@ import React from "react";
 const SS4NavLoader = () => {
   return (
     <nav className="herald-pagination herald-load-more">
-      <a href="https://demo.mekshq.com/herald/?paged=2">Load More</a>
+      <button>Load More</button>
+      {/* <a href="https://demo.mekshq.com/herald/?paged=2">Load More</a> */}
       <div className="herald-loader">
         <div className="spinner">
           <div className="bounce1"></div>

@@ -19,8 +19,8 @@ const SS2FoodNDrinks = ({science}) => {
       <div className="row herald-posts row-eq-height">
         <SS2FNDTopArticles news={science[0]}/>
 
-        {science?.slice(1,5).map((News) => (
-          <SS2FNDSubArticles news={News}/>
+        {science?.slice(1,5).map((News,index) => (
+          <SS2FNDSubArticles news={News} key={index} id={index}/>
         ))}
         
       </div>

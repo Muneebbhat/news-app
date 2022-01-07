@@ -1,6 +1,7 @@
+import moment from 'moment'
 import React from 'react'
 
-const SS3ArticleWOI = () => {
+const SS3ArticleWOI = ({title,publishedAt}) => {
     return (
         <article
           className="
@@ -20,18 +21,18 @@ const SS3ArticleWOI = () => {
                 href="https://demo.mekshq.com/herald/?cat=7"
                 className="herald-cat-7"
               >
-                Technology
+                Sports
               </a>
             </span>
 
             <h2 className="entry-title h7">
               <a href="https://demo.mekshq.com/herald/?p=201">
-                Tablets are great for early morning meetings
+                {title}
               </a>
             </h2>
             <div className="entry-meta meta-small">
               <div className="meta-item herald-date">
-                <span className="updated">1 week ago</span>
+                <span className="updated">{moment(publishedAt).startOf('hour').fromNow()}</span>
               </div>
             </div>
           </div>
