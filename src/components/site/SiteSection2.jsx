@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import SS2Main from "./SS2components/SS2Main";
 import SS2Side from "./SS2components/SS2Side";
+import { key } from "../data/Data";
 
 const SiteSection2 = ({ topNews }) => {
   const [EntmntNews, setEntmntNews] = useState([]);
@@ -13,7 +14,7 @@ const SiteSection2 = ({ topNews }) => {
   useEffect(() => {
     const entertainmentNews = async () => {
       const res = await axios.get(
-        `https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=c2d2bbf6310e45f8ad7018b12b0c2f04`
+        `https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=${key}`
       );
       setEntmntNews(res.data.articles);
     };
@@ -21,28 +22,28 @@ const SiteSection2 = ({ topNews }) => {
     
     const businessNews = async () => {
       const res = await axios.get(
-        `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=c2d2bbf6310e45f8ad7018b12b0c2f04`
+        `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`
       );
       setBusinessNews(res.data.articles);
     };
 
     const healthNews = async () => {
       const res = await axios.get(
-        `https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=c2d2bbf6310e45f8ad7018b12b0c2f04`
+        `https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=${key}`
       );
       setHealthNews(res.data.articles);
     };
 
     const scienceNews = async () => {
       const res = await axios.get(
-        `https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=c2d2bbf6310e45f8ad7018b12b0c2f04`
+        `https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=${key}`
       );
       setScienceNews(res.data.articles);
     };
 
     const technologyNews = async () => {
       const res = await axios.get(
-        `https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=c2d2bbf6310e45f8ad7018b12b0c2f04`
+        `https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=${key}`
       );
       setTechnologyNews(res.data.articles);
     };

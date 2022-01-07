@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import Loader from "../loader/Loader";
+import { key } from "../data/Data";
 const SS3PopularThisWeek = lazy( () => import("./SS3Compnents/SS3PopularThisWeek"))
 const SS3SelectedProducts = lazy( () => import("./SS3Compnents/SS3SelectedProducts"))
 
@@ -8,7 +9,7 @@ const SiteSection3 = () => {
   const [Sports, setSportsNews] = useState([]);
   useEffect(() => {
    const sportsNews = async () =>{
-const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=c2d2bbf6310e45f8ad7018b12b0c2f04`)
+const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=${key}`)
 setSportsNews(response.data.articles)
    }
    sportsNews()
