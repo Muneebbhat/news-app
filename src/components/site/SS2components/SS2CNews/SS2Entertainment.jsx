@@ -46,8 +46,8 @@ const SS2Entertainment = ({news}) => {
         </div>
       </div>
       <div className="row herald-posts row-eq-height herald-slider">
-        {news.slice(0,9).map((News) => (
-          <SS2EArticles news={News}/>
+        {news.slice(0,9).map((News,index) => (
+          <SS2EArticles news={News} key={index} id={index}/>
         ))}
         
         

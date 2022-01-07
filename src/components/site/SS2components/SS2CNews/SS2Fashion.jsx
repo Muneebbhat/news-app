@@ -18,8 +18,8 @@ const SS2Fashion = ({health}) => {
       </div>
       <div className="row herald-posts row-eq-height">
         <SS2FsnTopArticles news={health[0]}/>
-        {health?.slice(1,5).map((News) => (
-          <SS2FsnSubArticles news={News}/>
+        {health?.slice(1,5).map((News,index) => (
+          <SS2FsnSubArticles news={News} key={index} id={index}/>
 
         ))}
         

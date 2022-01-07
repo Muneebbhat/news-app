@@ -17,13 +17,13 @@ const SS3PopularThisWeek = ({SportsNews}) => {
         </div>
       </div>
       <div className="row herald-posts row-eq-height">
-      {SportsNews?.slice(0,12)?.map((news) =>(
-        <SS3ArticleWI {...news}/>
+      {SportsNews?.slice(0,12)?.map((news, index) =>(
+        <SS3ArticleWI {...news} key={index} id={index}/>
       ))}
         
         
-        {SportsNews?.slice(12,16)?.map((news)=>(
-          <SS3ArticleWOI {...news}/>
+        {SportsNews?.slice(12,16)?.map((news, index)=>(
+          <SS3ArticleWOI {...news} key={index} id={index}/>
         ))}
        
 

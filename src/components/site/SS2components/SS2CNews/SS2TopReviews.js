@@ -16,8 +16,8 @@ const SS2TopReviews = ({tech}) => {
         </div>
       </div>
       <div className="row herald-posts row-eq-height">
-        {tech?.sort(function(){return .5 - Math.random()}).slice(0,6).map((News) => (
-          <SS2TRVWArticles news={News}/>
+        {tech?.sort(function(){return .5 - Math.random()}).slice(0,6).map((News,index) => (
+          <SS2TRVWArticles news={News} key={index} id={index}/>
         ))}
     
       </div>

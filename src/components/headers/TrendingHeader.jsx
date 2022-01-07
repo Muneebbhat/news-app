@@ -5,8 +5,8 @@ const TrendingHeader = ({ sixNews }) => {
         <div className="row">
           <div className="col-lg-12 col-md-12">
             <div className="row" data-col="6">
-              {sixNews.slice(0, 6).map((news) => (
-                <div className="col-lg-2 col-md-2">
+              {sixNews.slice(0, 6).map((news,index) => (
+                <div className="col-lg-2 col-md-2" key={index} id={index}>
                   <div className="herald-post-thumbnail">
                     <a
                       href="https://demo.mekshq.com/herald/?p=203"
@@ -15,7 +15,7 @@ const TrendingHeader = ({ sixNews }) => {
                       <img
                         width="150"
                         height="150"
-                        src={news.urlToImage}
+                        src={news?.urlToImage}
                         className="
                           attachment-thumbnail
                           size-thumbnail
@@ -29,7 +29,7 @@ const TrendingHeader = ({ sixNews }) => {
                   </div>
                   <h4 className="h6">
                     <a href="https://demo.mekshq.com/herald/?p=203">
-                      {news.title.slice(0,40)}...
+                      {news?.title?.slice(0,40)}...
                     </a>
                   </h4>
                 </div>
