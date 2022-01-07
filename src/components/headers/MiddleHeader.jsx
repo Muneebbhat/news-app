@@ -1,3 +1,4 @@
+import logo from "../../LogoMakr-7SfJFw.png"
 const MiddleHeader = () => {
     return (
         <div className="header-middle herald-header-wraper hidden-xs hidden-sm">
@@ -10,7 +11,7 @@ const MiddleHeader = () => {
                     <a href="https://demo.mekshq.com/herald/" rel="home"
                       ><img
                         className="herald-logo no-lazyload"
-                        src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/themes/herald/assets/img/herald_logo.png"
+                        src={logo}
                         alt="Reactor-Webs"
                     /></a>
                   </h1>

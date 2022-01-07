@@ -1,3 +1,4 @@
+import logo from "../../LogoMakr-7SfJFw.png"
 const StickyHeader = () => {
   return (
     <div
@@ -16,7 +17,7 @@ const StickyHeader = () => {
                   <a href="https://demo.mekshq.com/herald/" rel="home">
                     <img
                       className="herald-logo-mini no-lazyload"
-                      src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/themes/herald/assets/img/herald_logo_mini.png"
+                      src={logo}
                       alt="Herald"
                     />
                   </a>

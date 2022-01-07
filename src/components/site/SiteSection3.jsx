@@ -3,7 +3,7 @@ import React, { lazy, Suspense, useEffect, useState } from "react";
 import Loader from "../loader/Loader";
 import { key } from "../data/Data";
 const SS3PopularThisWeek = lazy( () => import("./SS3Compnents/SS3PopularThisWeek"))
-const SS3SelectedProducts = lazy( () => import("./SS3Compnents/SS3SelectedProducts"))
+// const SS3SelectedProducts = lazy( () => import("./SS3Compnents/SS3SelectedProducts"))
 
 const SiteSection3 = () => {
   const [Sports, setSportsNews] = useState([]);
@@ -25,7 +25,7 @@ setSportsNews(response.data.articles)
           <div className="row">
           <Suspense fallback={<Loader/>}>
           <SS3PopularThisWeek SportsNews={Sports}/>
-            <SS3SelectedProducts />
+            {/* <SS3SelectedProducts /> */}
           </Suspense>
             
 
