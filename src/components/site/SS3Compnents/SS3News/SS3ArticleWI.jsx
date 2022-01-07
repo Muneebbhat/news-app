@@ -1,6 +1,7 @@
+import moment from 'moment'
 import React from 'react'
 
-const SS3ArticleWI = () => {
+const SS3ArticleWI = ({title,publishedAt,urlToImage,}) => {
     return (
         <article
           className="
@@ -22,7 +23,7 @@ const SS3ArticleWI = () => {
               <img
                 width="300"
                 height="168"
-                src="https://mksdmcdn-9b59.kxcdn.com/herald/wp-content/uploads/2015/11/herald081-300x168.jpg"
+                src={urlToImage}
                 className="
                       attachment-herald-lay-i-full
                       size-herald-lay-i-full
@@ -47,12 +48,12 @@ const SS3ArticleWI = () => {
 
             <h2 className="entry-title h6">
               <a href="https://demo.mekshq.com/herald/?p=197">
-                Learn to play golf by practicing 15 minutes a day
+              {title}
               </a>
             </h2>
             <div className="entry-meta meta-small">
               <div className="meta-item herald-date">
-                <span className="updated">1 week ago</span>
+                <span className="updated">{moment(publishedAt).startOf('hour').fromNow()}</span>
               </div>
             </div>
           </div>
