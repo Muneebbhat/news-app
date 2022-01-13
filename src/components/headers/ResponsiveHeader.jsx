@@ -4,6 +4,7 @@ const ResponsiveHeader = () => {
     <div
       id="herald-responsive-header"
       className="herald-responsive-header herald-slide hidden-lg hidden-md"
+      style={{zIndex: '99999999'}}
     >
       <div className="container">
         <div className="herald-nav-toggle">

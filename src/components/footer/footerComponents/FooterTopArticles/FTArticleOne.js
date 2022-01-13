@@ -3,7 +3,7 @@ import logo from "../../../../LogoMakr-7SfJFw.png"
 
 const FTArticleOne = () => {
     return (
-        <div className="col-lg-3 col-md-3 col-sm-3" >
+        <div className="col-md-6 col-sm-6" >
           <div id="text-3" className="widget widget_text">
             <div className="textwidget" style={{marginLeft:"5px"}}>
               <p>

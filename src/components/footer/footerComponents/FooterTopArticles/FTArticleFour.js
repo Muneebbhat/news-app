@@ -2,7 +2,7 @@ import React from 'react'
 
 const FTArticleFour = () => {
     return (
-        <div className="col-lg-3 col-md-3 col-sm-3">
+        <div className=" col-md-6 col-sm-6">
         <div id="tag_cloud-3" className="widget widget_tag_cloud">
           <h4 className="widget-title h6">
             <span>Tags</span>

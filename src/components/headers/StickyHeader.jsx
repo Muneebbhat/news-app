@@ -7,6 +7,7 @@ const StickyHeader = () => {
         herald-header-sticky herald-header-wraper herald-slide
         hidden-xs hidden-sm
       "
+      style={{zIndex: '99999999'}}
     >
       <div className="container">
         <div className="row">

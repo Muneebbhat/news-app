@@ -11,7 +11,7 @@ const TrendingHeader = React.lazy(() => import("./TrendingHeader"));
 
 const Headers = ({ topNews }) => {
   return (
-    <React.Fragment>
+    <div className="">
       <header className="herald-site-header">
         <Suspense fallback={<Loader />}>
           <TopHeader />
@@ -23,7 +23,7 @@ const Headers = ({ topNews }) => {
       <StickyHeader />
       <ResponsiveHeader />
       <MobileNavigation />
-    </React.Fragment>
+    </div>
   );
 };
 
