@@ -1,36 +1,37 @@
 import moment from "moment";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeaderArticles = ({New}) => {
   return (
     <article className="herald-fa-item herald-cat-2">
       <header className="entry-header">
         <span className="meta-category">
-          <a
-            href="https://demo.mekshq.com/herald/?cat=2"
-            className="herald-cat-2"
-          >
+         
+          <Link to="/open" className="herald-cat-2">
             Travel
-          </a>
+           </Link>
         </span>
+        
 
         <h2 className="entry-title h6">
-          <a href="https://demo.mekshq.com/herald/?p=157">
-            <span className="herald-format-icon">
+          <Link to="/open">
+          <span className="herald-format-icon">
               <i className="fa fa-camera"></i>
             </span>
             {New?.title}
-          </a>
+          </Link>
+           
         </h2>
         <div className="entry-meta">
           <div className="meta-item herald-date">
             <span className="updated">{moment(New?.publishedAt).startOf('hour').fromNow()}</span>
           </div>
-          <div className="meta-item herald-comments">
+          {/* <div className="meta-item herald-comments">
             <a href="https://demo.mekshq.com/herald/?p=157#comments">
               6 Comments
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="entry-content">
@@ -44,11 +45,8 @@ const HeaderArticles = ({New}) => {
         </a>
       </header>
 
-      <a
-        className="fa-post-thumbnail"
-        href="https://demo.mekshq.com/herald/?p=157"
-        title="The simplest way to make the best of your vacation"
-      >
+      
+      <Link to="/open" className="fa-post-thumbnail">
         <img
           width="550"
           height="520"
@@ -61,7 +59,7 @@ const HeaderArticles = ({New}) => {
           alt=""
           loading="lazy"
         />
-      </a>
+        </Link>
     </article>
   );
 };

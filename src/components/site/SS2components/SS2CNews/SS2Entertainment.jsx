@@ -18,19 +18,19 @@ const SS2Entertainment = ({news}) => {
                 className="fa fa-angle-down herald-sub-cat-icon"
                 aria-hidden="true"
               ></i>
-              <div className="herald-mod-subnav-mobile">
+              {/* <div className="herald-mod-subnav-mobile">
                 <a href="https://demo.mekshq.com/herald/?cat=48">Celebrities</a>
                 <a href="https://demo.mekshq.com/herald/?cat=43">Movies</a>
                 <a href="https://demo.mekshq.com/herald/?cat=42">Music</a>
-              </div>
+              </div> */}
             </h2>
           </div>
-          <div className="herald-mod-subnav">
+          {/* <div className="herald-mod-subnav">
             <a href="https://demo.mekshq.com/herald/?cat=48">Celebrities</a>
             <a href="https://demo.mekshq.com/herald/?cat=43">Movies</a>
             <a href="https://demo.mekshq.com/herald/?cat=42">Music</a>
-          </div>
-          <div className="herald-mod-actions">
+          </div> */}
+          {/* <div className="herald-mod-actions">
             <a
               className="herald-all-link"
               href="https://demo.mekshq.com/herald/?cat=6"
@@ -42,7 +42,7 @@ const SS2Entertainment = ({news}) => {
               data-col="4"
               data-autoplay="0"
             ></div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="row herald-posts row-eq-height herald-slider">

@@ -1,15 +1,17 @@
 import React, { useState, useEffect, Suspense } from "react";
 import axios from "axios";
 import "./styles/style.css";
-import Banner from "./components/site/Banner";
 import Loader from "./components/loader/Loader";
 import { key } from "./components/data/Data";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AllNewsIndex from "./components/site/AllNewsIndex";
+import NotFound from "./components/site/404NotFound";
 
 const Headers = React.lazy(() => import("./components/headers"));
-const SiteSection2 = React.lazy(() => import("./components/site/SiteSection2"));
-const SiteSection3 = React.lazy(() => import("./components/site/SiteSection3"));
-const SiteSection4 = React.lazy(() => import("./components/site/SiteSection4"));
 const Footer = React.lazy(() => import("./components/footer/Footer"));
+const NewsOpnerindex = React.lazy(() =>
+  import("./components/NewsOpner/NewsOpnerIndex")
+);
 
 const App = () => {
   const [topHeadlines, setTopHeadlines] = useState([]);
@@ -24,17 +26,20 @@ const App = () => {
     getTopHeadlines();
   }, []);
   return (
-    <div id="content" className="herald-site-content herald-slide">
-      <Suspense fallback={<Loader />}>
-        <Headers topNews={topHeadlines} />
-        <Banner topNews={topHeadlines} />
-        <SiteSection2 topNews={topHeadlines} />
-        <SiteSection3 />
-        <SiteSection4 />
-        <Footer/>
-      </Suspense>
-
-    </div>
+    <BrowserRouter>
+      <div id="content" className="herald-site-content herald-slide">
+        <Suspense fallback={<Loader />}>
+          <Headers topNews={topHeadlines} />
+          <Routes>
+          <Route path="/" element={<AllNewsIndex topHeadlines={topHeadlines}/>}/>
+           <Route path="/open" element={<NewsOpnerindex/>}/> 
+           <Route path="*" element={NotFound}/>
+            
+          </Routes>
+          <Footer />
+        </Suspense>
+      </div>
+    </BrowserRouter>
   );
 };
 

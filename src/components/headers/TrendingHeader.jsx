@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const TrendingHeader = ({ sixNews }) => {
   return (
     <div className="header-trending hidden-xs hidden-sm">
@@ -8,11 +10,8 @@ const TrendingHeader = ({ sixNews }) => {
               {sixNews.slice(0, 6).map((news,index) => (
                 <div className="col-lg-2 col-md-2" key={index} id={index}>
                   <div className="herald-post-thumbnail">
-                    <a
-                      href="https://demo.mekshq.com/herald/?p=203"
-                      title="Grandma&#8217;s secret blueberry pie recipe revealed!"
-                    >
-                      <img
+                   <Link to="/open">
+                   <img
                         width="150"
                         height="150"
                         src={news?.urlToImage}
@@ -25,12 +24,13 @@ const TrendingHeader = ({ sixNews }) => {
                         loading="lazy"
                         sizes="(max-width: 150px) 100vw, 150px"
                       />
-                    </a>
+                   </Link>
+                      
                   </div>
                   <h4 className="h6">
-                    <a href="https://demo.mekshq.com/herald/?p=203">
+                    <Link to="/open">
                       {news?.title?.slice(0,40)}...
-                    </a>
+                     </Link>
                   </h4>
                 </div>
               ))}
