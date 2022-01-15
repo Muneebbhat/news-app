@@ -52,7 +52,7 @@ const SS2EArticles = ({news}) => {
           </a>
         </h2>
         <div className="entry-meta meta-small">
-          <div className="meta-item herald-rtime">{news?.description.length/200}</div>
+          <div className="meta-item herald-rtime"> </div>
         </div>
       </div>
     </article>

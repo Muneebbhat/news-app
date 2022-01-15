@@ -1,8 +1,16 @@
 import moment from "moment";
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
-const HeaderArticles = ({New}) => {
+const HeaderArticles = ({New, id}) => {
+  const [newImgPath, setNewImgPath] = useState('');
+
+  const test = () => {
+    setNewImgPath(New?.urlToImage.slice(8,New?.urlToImage.length))
+    console.log(newImgPath)
+  }
+
   return (
     <article className="herald-fa-item herald-cat-2">
       <header className="entry-header">
@@ -14,8 +22,9 @@ const HeaderArticles = ({New}) => {
         </span>
         
 
-        <h2 className="entry-title h6">
-          <Link to="/open">
+        <h2 className="entry-title h6" onClick={test}>
+          {console.log('HELOOOO',newImgPath)}
+          <Link to={`/open/${newImgPath}`}>
           <span className="herald-format-icon">
               <i className="fa fa-camera"></i>
             </span>

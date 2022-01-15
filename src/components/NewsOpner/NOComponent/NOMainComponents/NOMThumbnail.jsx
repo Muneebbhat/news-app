@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { useParams } from 'react-router-dom'
 const NOMThumbnail = () => {
+  // const {image} = useParams();
     return (
         <div className="herald-post-thumbnail herald-post-thumbnail-single">
         <span>

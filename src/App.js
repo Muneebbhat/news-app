@@ -32,7 +32,7 @@ const App = () => {
           <Headers topNews={topHeadlines} />
           <Routes>
           <Route path="/" element={<AllNewsIndex topHeadlines={topHeadlines}/>}/>
-           <Route path="/open" element={<NewsOpnerindex/>}/> 
+           <Route path="/open/:image" element={<NewsOpnerindex/>}/> 
            <Route path="*" element={<NotFound/>}/>
             
           </Routes>

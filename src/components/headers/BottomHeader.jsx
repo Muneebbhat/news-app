@@ -1,11 +1,11 @@
 const BottomHeader = () => {
     return (
-        <div className="header-bottom herald-header-wraper hidden-sm hidden-xs">
+        <div className="header-bottom herald-header-wraper hidden-sm hidden-xs" >
         <div className="container">
           <div className="row">
             <div className="col-lg-12 hel-el">
               <div className="hel-l">
-                <nav className="main-navigation herald-menu">
+                <nav className="main-navigation herald-menu" >
                   <ul id="menu-herald-main" className="menu">
                     <li
                       id="menu-item-984"
@@ -26,9 +26,9 @@ const BottomHeader = () => {
                       <a
                         href="https://demo.mekshq.com/herald/"
                         aria-current="page"
-                        >Home</a
-                      >
-                      <ul className="sub-menu">
+                        >Home
+                        </a>
+                      <ul className="sub-menu" >
                         <li
                           id="menu-item-1476"
                           className="

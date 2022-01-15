@@ -12,7 +12,8 @@ const NOMHeaderComponent = () => {
           </a>
         </span>
         <h1 className="entry-title h1">
-         Tawheed
+        {/* {title} */}
+        TITLE IS HERE
         </h1>
         <div className="entry-meta entry-meta-single">
           <div className="meta-item herald-date">
