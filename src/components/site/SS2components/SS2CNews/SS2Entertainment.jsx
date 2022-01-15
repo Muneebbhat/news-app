@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import SS2EArticles from "./SS2EArticles.jsx/SS2EArticles";
 
 const SS2Entertainment = ({news}) => {
+  const [viewAllNews, setViewAll] = useState(9);
+  const [toggle, settoggle] = useState(false)
+  const viewAll = () => {
+    setViewAll(news?.length)
+    settoggle(!toggle)
+    
+  }
+  let number;
+  if(toggle){
+      number = viewAllNews
+  }else if(!toggle){
+    number = 9
+  }
+
   return (
     <div
       className="herald-module col-lg-12 col-md-12 col-sm-12"
@@ -29,28 +43,25 @@ const SS2Entertainment = ({news}) => {
             <a href="https://demo.mekshq.com/herald/?cat=48">Celebrities</a>
             <a href="https://demo.mekshq.com/herald/?cat=43">Movies</a>
             <a href="https://demo.mekshq.com/herald/?cat=42">Music</a>
-          </div> */}
-          {/* <div className="herald-mod-actions">
-            <a
-              className="herald-all-link"
-              href="https://demo.mekshq.com/herald/?cat=6"
-            >
-              View All
-            </a>
+          </div>  */}
+           <div className="herald-mod-actions">
+            
+            <button className="herald-all-link primary" onClick={viewAll}>{!toggle ? "View All" : "View Few"}</button>
+              
             <div
               className="herald-slider-controls"
               data-col="4"
               data-autoplay="0"
             ></div>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="row herald-posts row-eq-height herald-slider">
-        {news.slice(0,9).map((News,index) => (
+        {news.slice(0,number).map((News,index) => (
           <SS2EArticles news={News} key={index} id={index}/>
         ))}
         
-        
+        {/* viewAllNews */}
         
       </div>
     </div>

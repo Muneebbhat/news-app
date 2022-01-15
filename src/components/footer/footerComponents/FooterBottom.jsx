@@ -10,8 +10,8 @@ const FooterBottom = () => {
               <div className="hel-l herald-go-hor">
                 <div className="herald-copyright">
                   Copyright &copy; {new Date().getFullYear()} Created by
-                  <a href="https://mekshq.com">MuneebBhat</a>. Powered by
-                  <a href="https://www.wordpress.org">Reactor Webs</a>.
+                  <a href="/"> MuneebBhat</a>. Powered by
+                  <a href="/">Reactor Webs</a>.
                 </div>
               </div>
 
@@ -25,7 +25,7 @@ const FooterBottom = () => {
                       menu-item-1037
                     "
                   >
-                    <a href="https://www.facebook.com/mekshq">
+                    <a href="/">
                       <span className="herald-social-name">Facebook</span>
                     </a>
                   </li>
@@ -37,7 +37,7 @@ const FooterBottom = () => {
                       menu-item-1038
                     "
                   >
-                    <a href="https://twitter.com/mekshq">
+                    <a href="/">
                       <span className="herald-social-name">Twitter</span>
                     </a>
                   </li>
@@ -49,7 +49,7 @@ const FooterBottom = () => {
                       menu-item-1039
                     "
                   >
-                    <a href="https://plus.google.com/u/0/+meksHQgplus/posts">
+                    <a href="/">
                       <span className="herald-social-name">Google+</span>
                     </a>
                   </li>
@@ -61,7 +61,7 @@ const FooterBottom = () => {
                       menu-item-1040
                     "
                   >
-                    <a href="https://instagram.com/">
+                    <a href="/">
                       <span className="herald-social-name">Instagram</span>
                     </a>
                   </li>
@@ -73,7 +73,7 @@ const FooterBottom = () => {
                       menu-item-1041
                     "
                   >
-                    <a href="https://vk.com/">
+                    <a href="/">
                       <span className="herald-social-name">VK</span>
                     </a>
                   </li>

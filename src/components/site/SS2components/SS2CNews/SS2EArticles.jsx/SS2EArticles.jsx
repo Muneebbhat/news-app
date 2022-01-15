@@ -18,7 +18,7 @@ const SS2EArticles = ({news}) => {
       <div className="herald-post-thumbnail herald-format-icon-middle">
         <a
           href="https://demo.mekshq.com/herald/?p=171"
-          title="Start recording like a pro with the help of these 6 tips"
+          title={news?.title}
         >
           <img
             width="300"
@@ -52,11 +52,10 @@ const SS2EArticles = ({news}) => {
           </a>
         </h2>
         <div className="entry-meta meta-small">
-          <div className="meta-item herald-rtime">2 Min Read</div>
+          <div className="meta-item herald-rtime">{news?.description.length/200}</div>
         </div>
       </div>
     </article>
   );
 };
-
 export default SS2EArticles;

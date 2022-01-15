@@ -33,7 +33,7 @@ const App = () => {
           <Routes>
           <Route path="/" element={<AllNewsIndex topHeadlines={topHeadlines}/>}/>
            <Route path="/open" element={<NewsOpnerindex/>}/> 
-           <Route path="*" element={NotFound}/>
+           <Route path="*" element={<NotFound/>}/>
             
           </Routes>
           <Footer />
